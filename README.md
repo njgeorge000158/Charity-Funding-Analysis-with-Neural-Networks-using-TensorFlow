@@ -32,7 +32,7 @@ The purpose of this analysis is to create a binary classification model using de
 
 <img width="582" alt="alphabet_charity_4" src="https://github.com/njgeorge000158/Charity-Funding-Analysis-with-Neural-Networks-using-TensorFlow/assets/137228821/538a7640-c01e-4ab7-8b99-b97babfe7aa0">
 
-Once implemented, the optimized model attained a predictive accuracy of 81.11% and loss of 13.57%.
+Once implemented, the optimized model attained a predictive accuracy of 80.94% and loss of 6.36%.
 
 <img width="646" alt="alphabet_charity_5" src="https://github.com/njgeorge000158/Charity-Funding-Analysis-with-Neural-Networks-using-TensorFlow/assets/137228821/b0746930-e7bb-4b6f-8078-8db58725f2f5">
 
