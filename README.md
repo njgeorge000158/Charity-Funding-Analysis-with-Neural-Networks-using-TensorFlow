@@ -22,21 +22,21 @@ The purpose of this analysis is to create a binary classification model using de
 
 - The model has two hidden layers and one output layer.  The two hidden layers consist of 95 and 38 neurons, respectively, and use ReLU activation functions.  Because this is a binary classification model, the output layer has 1 neuron and uses a Sigmoid activation function.  The structure maintains the ability to learn patterns effectively while striking a balance between complexity and overfitting.
 
-<img width="652" alt="alphabet_charity_2" src="https://github.com/njgeorge000158/Charity-Funding-Analysis-with-Neural-Networks-using-TensorFlow/assets/137228821/cef16092-2401-4a06-8313-f58cb3003619">
+<img width="654" alt="alphabet_charity_2" src="https://github.com/njgeorge000158/Charity-Funding-Analysis-with-Neural-Networks-using-TensorFlow/assets/137228821/ddafca29-0240-4c0e-9098-74b15ede7a5a">
 
 - Unfortunately, this model did not achieve the target performance of at least 75% predictive accuracy.
 
-<img width="767" alt="alphabet_charity_3" src="https://github.com/njgeorge000158/Charity-Funding-Analysis-with-Neural-Networks-using-TensorFlow/assets/137228821/7119ae12-7b58-451a-9e71-c6bb13331b0c">
+<img width="909" alt="alphabet_charity_3" src="https://github.com/njgeorge000158/Charity-Funding-Analysis-with-Neural-Networks-using-TensorFlow/assets/137228821/952b4894-2695-4153-a37e-cc572d119c2a">
 
 - To achieve the target performance, I made numerous changes to the data set, preprocessing, and neural network configuration. First, I dropped the EIN, STATUS, and SPECIAL_CONSIDERATIONS columns from the data set: these columns either had to many uniquely distributed values or virtually none.  Next, I wrote a neural network optimization program, AlphabetSoupCharityOptimizationSearch.ipynb, that calculated the following cutoff values for the variables, NAME, APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, and ASK_AMT: 2, 157, 65, 96, 147, and 4.  According to the program results, the optimal model for this data set contained three hidden layers with 54, 65, and 25 neurons, respectively, using tanh activation.
 
-<img width="548" alt="alphabet_charity_4" src="https://github.com/njgeorge000158/Charity-Funding-Analysis-with-Neural-Networks-using-TensorFlow/assets/137228821/5b0055b4-482b-4587-bf43-e3b0cb3a3cc6">
+<img width="582" alt="alphabet_charity_4" src="https://github.com/njgeorge000158/Charity-Funding-Analysis-with-Neural-Networks-using-TensorFlow/assets/137228821/538a7640-c01e-4ab7-8b99-b97babfe7aa0">
 
 Once implemented, the optimized model attained a predictive accuracy of 81.11% and loss of 13.57%.
 
-<img width="614" alt="alphabet_charity_5" src="https://github.com/njgeorge000158/Charity-Funding-Analysis-with-Neural-Networks-using-TensorFlow/assets/137228821/8fd297fb-4989-4fbe-97a3-fce026f336cd">
+<img width="646" alt="alphabet_charity_5" src="https://github.com/njgeorge000158/Charity-Funding-Analysis-with-Neural-Networks-using-TensorFlow/assets/137228821/b0746930-e7bb-4b6f-8078-8db58725f2f5">
 
-<img width="687" alt="alphabet_charity_6" src="https://github.com/njgeorge000158/Charity-Funding-Analysis-with-Neural-Networks-using-TensorFlow/assets/137228821/5789a9c4-5ce8-46e4-911c-43a9ecdcdf8a">
+<img width="884" alt="alphabet_charity_6" src="https://github.com/njgeorge000158/Charity-Funding-Analysis-with-Neural-Networks-using-TensorFlow/assets/137228821/e1991ea9-b52d-40d2-90f7-ab9380e0e978">
 
 ## **Summary**
 
