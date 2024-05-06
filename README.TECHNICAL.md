@@ -108,6 +108,11 @@ Jupyter Notebook, Numpy, Pandas, Python 3.11.4, Keras, TensorFlow
 
 |&rarr; [./images/](./images/)
 
+  &emsp; |&rarr; [./images/charity_binning_optimizationTable12CharityDataTable.png](./images/charity_binning_optimizationTable12CharityDataTable.png)
+
+  &emsp; |&rarr; [./images/charity_binning_optimizationTable28UpdatedCharityDataTable.png](./images/charity_binning_optimizationTable28UpdatedCharityDataTable.png)
+
+  &emsp; |&rarr; [./images/README.md](./images/README.md)
 
 |&rarr; [./logs/](./logs/)
 
