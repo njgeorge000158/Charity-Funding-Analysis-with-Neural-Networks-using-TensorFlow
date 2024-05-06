@@ -1,0 +1,561 @@
+
+Timepoint: 2024/05/06 09:50:45
+Program execution begins...
+
+
+
+
+             EIN                                               NAME  \
+0       10520599                       BLUE KNIGHTS MOTORCYCLE CLUB   
+1       10531628             AMERICAN CHESAPEAKE CLUB CHARITABLE TR   
+2       10547893                 ST CLOUD PROFESSIONAL FIREFIGHTERS   
+3       10553066                     SOUTHSIDE ATHLETIC ASSOCIATION   
+4       10556103           GENETIC RESEARCH INSTITUTE OF THE DESERT   
+...          ...                                                ...   
+34294  996009318              THE LIONS CLUB OF HONOLULU KAMEHAMEHA   
+34295  996010315           INTERNATIONAL ASSOCIATION OF LIONS CLUBS   
+34296  996012607                                PTA HAWAII CONGRESS   
+34297  996015768  AMERICAN FEDERATION OF GOVERNMENT EMPLOYEES LO...   
+34298  996086871                           WATERHOUSE CHARITABLE TR   
+
+      APPLICATION_TYPE       AFFILIATION CLASSIFICATION      USE_CASE  \
+0                  T10       Independent          C1000    ProductDev   
+1                   T3       Independent          C2000  Preservation   
+2                   T5  CompanySponsored          C3000    ProductDev   
+3                   T3  CompanySponsored          C2000  Preservation   
+4                   T3       Independent          C1000     Heathcare   
+...                ...               ...            ...           ...   
+34294               T4       Independent          C1000    ProductDev   
+34295               T4  CompanySponsored          C3000    ProductDev   
+34296               T3  CompanySponsored          C2000  Preservation   
+34297               T5       Independent          C3000    ProductDev   
+34298               T3       Independent          C1000  Preservation   
+
+       ORGANIZATION  STATUS     INCOME_AMT SPECIAL_CONSIDERATIONS   ASK_AMT  \
+0       Association       1              0                      N      5000   
+1      Co-operative       1         1-9999                      N    108590   
+2       Association       1              0                      N      5000   
+3             Trust       1    10000-24999                      N      6692   
+4             Trust       1  100000-499999                      N    142590   
+...             ...     ...            ...                    ...       ...   
+34294   Association       1              0                      N      5000   
+34295   Association       1              0                      N      5000   
+34296   Association       1              0                      N      5000   
+34297   Association       1              0                      N      5000   
+34298  Co-operative       1          1M-5M                      N  36500179   
+
+       IS_SUCCESSFUL  
+0                  1  
+1                  1  
+2                  0  
+3                  1  
+4                  1  
+...              ...  
+34294              0  
+34295              0  
+34296              0  
+34297              1  
+34298              0  
+
+[34299 rows x 12 columns]
+
+
+Timepoint: 2024/05/06 09:50:46
+[1mThere are 34,299 student loans in this data set.
+
+[0m
+
+
+Timepoint: 2024/05/06 09:50:46
+[1mEIN                       34299
+NAME                      34299
+APPLICATION_TYPE          34299
+AFFILIATION               34299
+CLASSIFICATION            34299
+USE_CASE                  34299
+ORGANIZATION              34299
+STATUS                    34299
+INCOME_AMT                34299
+SPECIAL_CONSIDERATIONS    34299
+ASK_AMT                   34299
+IS_SUCCESSFUL             34299
+dtype: int64[0m
+
+
+Timepoint: 2024/05/06 09:50:46
+[1mEIN: 34,299
+[0m
+
+
+Timepoint: 2024/05/06 09:50:46
+[1mNAME: 19,568
+[0m
+
+
+Timepoint: 2024/05/06 09:50:46
+[1mAPPLICATION_TYPE: 17
+[0m
+
+
+Timepoint: 2024/05/06 09:50:46
+[1mAFFILIATION: 6
+[0m
+
+
+Timepoint: 2024/05/06 09:50:46
+[1mCLASSIFICATION: 71
+[0m
+
+
+Timepoint: 2024/05/06 09:50:46
+[1mUSE_CASE: 5
+[0m
+
+
+Timepoint: 2024/05/06 09:50:46
+[1mORGANIZATION: 4
+[0m
+
+
+Timepoint: 2024/05/06 09:50:46
+[1mSTATUS: 2
+[0m
+
+
+Timepoint: 2024/05/06 09:50:46
+[1mINCOME_AMT: 9
+[0m
+
+
+Timepoint: 2024/05/06 09:50:46
+[1mSPECIAL_CONSIDERATIONS: 2
+[0m
+
+
+Timepoint: 2024/05/06 09:50:46
+[1mASK_AMT: 8,747
+[0m
+
+
+Timepoint: 2024/05/06 09:50:46
+[1mIS_SUCCESSFUL: 2
+[0m
+
+
+
+             EIN                                               NAME  \
+0       10520599                       BLUE KNIGHTS MOTORCYCLE CLUB   
+1       10531628             AMERICAN CHESAPEAKE CLUB CHARITABLE TR   
+2       10547893                 ST CLOUD PROFESSIONAL FIREFIGHTERS   
+3       10553066                     SOUTHSIDE ATHLETIC ASSOCIATION   
+4       10556103           GENETIC RESEARCH INSTITUTE OF THE DESERT   
+...          ...                                                ...   
+34294  996009318              THE LIONS CLUB OF HONOLULU KAMEHAMEHA   
+34295  996010315           INTERNATIONAL ASSOCIATION OF LIONS CLUBS   
+34296  996012607                                PTA HAWAII CONGRESS   
+34297  996015768  AMERICAN FEDERATION OF GOVERNMENT EMPLOYEES LO...   
+34298  996086871                           WATERHOUSE CHARITABLE TR   
+
+      APPLICATION_TYPE       AFFILIATION CLASSIFICATION      USE_CASE  \
+0                  T10       Independent          C1000    ProductDev   
+1                   T3       Independent          C2000  Preservation   
+2                   T5  CompanySponsored          C3000    ProductDev   
+3                   T3  CompanySponsored          C2000  Preservation   
+4                   T3       Independent          C1000     Heathcare   
+...                ...               ...            ...           ...   
+34294               T4       Independent          C1000    ProductDev   
+34295               T4  CompanySponsored          C3000    ProductDev   
+34296               T3  CompanySponsored          C2000  Preservation   
+34297               T5       Independent          C3000    ProductDev   
+34298               T3       Independent          C1000  Preservation   
+
+       ORGANIZATION  STATUS     INCOME_AMT SPECIAL_CONSIDERATIONS      TEMP  \
+0       Association       1              0                      N      5000   
+1      Co-operative       1         1-9999                      N    108590   
+2       Association       1              0                      N      5000   
+3             Trust       1    10000-24999                      N      6692   
+4             Trust       1  100000-499999                      N    142590   
+...             ...     ...            ...                    ...       ...   
+34294   Association       1              0                      N      5000   
+34295   Association       1              0                      N      5000   
+34296   Association       1              0                      N      5000   
+34297   Association       1              0                      N      5000   
+34298  Co-operative       1          1M-5M                      N  36500179   
+
+       IS_SUCCESSFUL  
+0                  1  
+1                  1  
+2                  0  
+3                  1  
+4                  1  
+...              ...  
+34294              0  
+34295              0  
+34296              0  
+34297              1  
+34298              0  
+
+[34299 rows x 12 columns]
+
+
+
+0               0-9999
+1        100000-499999
+2               0-9999
+3               0-9999
+4        100000-499999
+             ...      
+34294           0-9999
+34295           0-9999
+34296           0-9999
+34297           0-9999
+34298          10M-50M
+Name: ASK_AMT, Length: 34299, dtype: category
+Categories (9, object): ['0-9999' < '10000-24999' < '25000-99999' < '100000-499999' ... '1M-5M' < '5M-10M' < '10M-50M' < '50M+']
+
+
+
+                                                    NAME APPLICATION_TYPE  \
+0                           BLUE KNIGHTS MOTORCYCLE CLUB              T10   
+1                 AMERICAN CHESAPEAKE CLUB CHARITABLE TR               T3   
+2                     ST CLOUD PROFESSIONAL FIREFIGHTERS               T5   
+3                         SOUTHSIDE ATHLETIC ASSOCIATION               T3   
+4               GENETIC RESEARCH INSTITUTE OF THE DESERT               T3   
+...                                                  ...              ...   
+34294              THE LIONS CLUB OF HONOLULU KAMEHAMEHA               T4   
+34295           INTERNATIONAL ASSOCIATION OF LIONS CLUBS               T4   
+34296                                PTA HAWAII CONGRESS               T3   
+34297  AMERICAN FEDERATION OF GOVERNMENT EMPLOYEES LO...               T5   
+34298                           WATERHOUSE CHARITABLE TR               T3   
+
+            AFFILIATION CLASSIFICATION      USE_CASE  ORGANIZATION  \
+0           Independent          C1000    ProductDev   Association   
+1           Independent          C2000  Preservation  Co-operative   
+2      CompanySponsored          C3000    ProductDev   Association   
+3      CompanySponsored          C2000  Preservation         Trust   
+4           Independent          C1000     Heathcare         Trust   
+...                 ...            ...           ...           ...   
+34294       Independent          C1000    ProductDev   Association   
+34295  CompanySponsored          C3000    ProductDev   Association   
+34296  CompanySponsored          C2000  Preservation   Association   
+34297       Independent          C3000    ProductDev   Association   
+34298       Independent          C1000  Preservation  Co-operative   
+
+          INCOME_AMT        ASK_AMT  IS_SUCCESSFUL  
+0                  0         0-9999              1  
+1             1-9999  100000-499999              1  
+2                  0         0-9999              0  
+3        10000-24999         0-9999              1  
+4      100000-499999  100000-499999              1  
+...              ...            ...            ...  
+34294              0         0-9999              0  
+34295              0         0-9999              0  
+34296              0         0-9999              0  
+34297              0         0-9999              1  
+34298          1M-5M        10M-50M              0  
+
+[34299 rows x 9 columns]
+
+
+
+                                                    NAME APPLICATION_TYPE  \
+0                           BLUE KNIGHTS MOTORCYCLE CLUB              T10   
+1                 AMERICAN CHESAPEAKE CLUB CHARITABLE TR               T3   
+2                     ST CLOUD PROFESSIONAL FIREFIGHTERS               T5   
+3                         SOUTHSIDE ATHLETIC ASSOCIATION               T3   
+4               GENETIC RESEARCH INSTITUTE OF THE DESERT               T3   
+...                                                  ...              ...   
+34294              THE LIONS CLUB OF HONOLULU KAMEHAMEHA               T4   
+34295           INTERNATIONAL ASSOCIATION OF LIONS CLUBS               T4   
+34296                                PTA HAWAII CONGRESS               T3   
+34297  AMERICAN FEDERATION OF GOVERNMENT EMPLOYEES LO...               T5   
+34298                           WATERHOUSE CHARITABLE TR               T3   
+
+            AFFILIATION CLASSIFICATION      USE_CASE  ORGANIZATION  \
+0           INDEPENDENT          C1000    PRODUCTDEV   ASSOCIATION   
+1           INDEPENDENT          C2000  PRESERVATION  CO-OPERATIVE   
+2      COMPANYSPONSORED          C3000    PRODUCTDEV   ASSOCIATION   
+3      COMPANYSPONSORED          C2000  PRESERVATION         TRUST   
+4           INDEPENDENT          C1000     HEATHCARE         TRUST   
+...                 ...            ...           ...           ...   
+34294       INDEPENDENT          C1000    PRODUCTDEV   ASSOCIATION   
+34295  COMPANYSPONSORED          C3000    PRODUCTDEV   ASSOCIATION   
+34296  COMPANYSPONSORED          C2000  PRESERVATION   ASSOCIATION   
+34297       INDEPENDENT          C3000    PRODUCTDEV   ASSOCIATION   
+34298       INDEPENDENT          C1000  PRESERVATION  CO-OPERATIVE   
+
+          INCOME_AMT        ASK_AMT  IS_SUCCESSFUL  
+0                  0         0-9999              1  
+1             1-9999  100000-499999              1  
+2                  0         0-9999              0  
+3        10000-24999         0-9999              1  
+4      100000-499999  100000-499999              1  
+...              ...            ...            ...  
+34294              0         0-9999              0  
+34295              0         0-9999              0  
+34296              0         0-9999              0  
+34297              0         0-9999              1  
+34298          1M-5M        10M-50M              0  
+
+[34299 rows x 9 columns]
+
+
+Timepoint: 2024/05/06 09:50:47
+[1mProcessing: 1/93
+[0m
+
+
+Timepoint: 2024/05/06 09:50:47
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 09:51:17
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 09:51:17
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 09:51:17
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 09:51:17
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 09:51:17
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 09:51:59
+[1mProcessing: 2/93
+[0m
+
+
+Timepoint: 2024/05/06 09:51:59
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 09:52:29
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 09:52:29
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 09:52:29
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 09:52:29
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 09:52:29
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 09:53:01
+[1mProcessing: 3/93
+[0m
+
+
+Timepoint: 2024/05/06 09:53:01
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 09:53:31
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 09:53:31
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 09:53:31
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 09:53:31
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 09:53:31
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 09:54:21
+[1mProcessing: 4/93
+[0m
+
+
+Timepoint: 2024/05/06 09:54:21
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 09:54:51
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 09:54:51
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 09:54:51
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 09:54:51
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 09:54:51
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 09:55:21
+[1mProcessing: 5/93
+[0m
+
+
+Timepoint: 2024/05/06 09:55:21
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 09:55:51
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 09:55:51
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 09:55:51
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 09:55:51
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 09:55:51
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 09:56:22
+[1mProcessing: 6/93
+[0m
+
+
+Timepoint: 2024/05/06 09:56:22
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 09:56:53
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 09:56:53
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 09:56:53
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 09:56:53
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 09:56:53
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 09:57:30
+[1mProcessing: 7/93
+[0m
+
+
+Timepoint: 2024/05/06 09:57:30
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 09:58:01
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 09:58:01
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 09:58:01
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 09:58:01
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 09:58:01
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 09:58:47
+[1mProcessing: 8/93
+[0m
+
+
+Timepoint: 2024/05/06 09:58:47
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 09:59:18
+[1mSetting dummy values...
+[0m
+
