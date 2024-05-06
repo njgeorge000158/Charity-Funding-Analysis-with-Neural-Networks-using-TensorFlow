@@ -1,4 +1,4 @@
-This folder holds the images of tables and plots displayed in the IPython notebooks, mongodb_setup.ipynb and restaurant_analysis.ipynb: the IPython Notebooks generate the images in Image Mode (see README.TECHNICAL.md).
+This folder holds the images of tables and plots displayed in the IPython notebooks, charity_binning_optimization.ipynb, charity_hyperparameters_optimization.ipynb, and charity.ipynb: the IPython Notebooks generate the images in Image Mode (see README.TECHNICAL.md).
 
 ----
 
