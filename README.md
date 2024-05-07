@@ -12,35 +12,27 @@ The purpose of this analysis is to create a binary classification model using de
 
 ### Data Preprocessing
 
-- The variable, IS_SUCCESSFUL, is the target of the binary classification model.
+- The binary classification model's target is the variable, IS_SUCCESSFUL.
 
-- The variables – APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, and ASK_AMT – are the features of the model.
+- The model's feature include the variables: NAME, APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, INCOME_AMT, and ASK_AMT.
 
-- The variables, EIN and NAME, are neither targets nor features and are not part of the input data.
+- EIN, STATUS, and SPECIAL_CONSIDERATIONS are neither targets nor features.
 
 ### Compiling, Training, and Evaluating the Model
 
-- The model has two hidden layers and one output layer.  The two hidden layers consist of 95 and 38 neurons, respectively, and use ReLU activation functions.  Because this is a binary classification model, the output layer has 1 neuron and uses a Sigmoid activation function.  The structure maintains the ability to learn patterns effectively while striking a balance between complexity and overfitting.
+![charity_analysisTable25UpdatedCharityDataTable](https://github.com/njgeorge000158/Charity-Funding-Analysis-with-Neural-Networks-using-TensorFlow/assets/137228821/dafdc9fa-c8ce-4bcb-8a37-9b85a14effb8)
 
-<img width="654" alt="alphabet_charity_2" src="https://github.com/njgeorge000158/Charity-Funding-Analysis-with-Neural-Networks-using-TensorFlow/assets/137228821/ddafca29-0240-4c0e-9098-74b15ede7a5a">
+- To maximze target performance, I dropped the EIN, STATUS, and SPECIAL_CONSIDERATIONS columns from the data set: these columns either had to many uniquely distributed values or virtually none.  Next, I calculated the following cutoff values for the features variables: NAME (1), APPLICATION_TYPE (156), AFFILIATION (33), CLASSIFICATION(6074), USE_CASE (146), ORGANIZATION (0), INCOME_AMT (728) and ASK_AMT (53).
 
-- Unfortunately, this model did not achieve the target performance of at least 75% predictive accuracy.
+<img width="657" alt="Screenshot 2024-05-07 at 9 45 07 AM" src="https://github.com/njgeorge000158/Charity-Funding-Analysis-with-Neural-Networks-using-TensorFlow/assets/137228821/e94b2c58-5c17-44a2-9c16-2292760e6311">
 
-<img width="909" alt="alphabet_charity_3" src="https://github.com/njgeorge000158/Charity-Funding-Analysis-with-Neural-Networks-using-TensorFlow/assets/137228821/952b4894-2695-4153-a37e-cc572d119c2a">
-
-- To achieve the target performance, I made numerous changes to the data set, preprocessing, and neural network configuration. First, I dropped the EIN, STATUS, and SPECIAL_CONSIDERATIONS columns from the data set: these columns either had to many uniquely distributed values or virtually none.  Next, I wrote a neural network optimization program, AlphabetSoupCharityOptimizationSearch.ipynb, that calculated the following cutoff values for the variables, NAME, APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, and ASK_AMT: 2, 157, 65, 96, 147, and 4.  According to the program results, the optimal model for this data set contained three hidden layers with 54, 65, and 25 neurons, respectively, using tanh activation.
-
-<img width="582" alt="alphabet_charity_4" src="https://github.com/njgeorge000158/Charity-Funding-Analysis-with-Neural-Networks-using-TensorFlow/assets/137228821/538a7640-c01e-4ab7-8b99-b97babfe7aa0">
+- The model has two hidden layers and one output layer.  The two hidden layers consist of 57 and 20 neurons, respectively, and use SeLU activation functions.  Because this is a binary classification model, the output layer has 1 neuron, which uses a Linear activation function.  The structure maintains the ability to learn patterns effectively while striking a balance between complexity and overfitting.
 
 Once implemented, the optimized model attained a predictive accuracy of 80.94% and loss of 6.36%.
 
-<img width="646" alt="alphabet_charity_5" src="https://github.com/njgeorge000158/Charity-Funding-Analysis-with-Neural-Networks-using-TensorFlow/assets/137228821/b0746930-e7bb-4b6f-8078-8db58725f2f5">
-
-<img width="884" alt="alphabet_charity_6" src="https://github.com/njgeorge000158/Charity-Funding-Analysis-with-Neural-Networks-using-TensorFlow/assets/137228821/e1991ea9-b52d-40d2-90f7-ab9380e0e978">
-
 ## **Summary**
 
-Overall, through optimization, the model exceeded the target predictive accuracy of 75% with 80.94%.  If I were to attempt to improve performance in the future, I would, among other things, modify the optimization program to include other neural network configurations beyond sequential.
+Overall, through optimization, the model exceeded the target predictive accuracy of 75% with 81.41%. This exercised demonstrated the effectiveness of converting numerical data to categorical data and binning to reduce the effect the of outliers. If I were to attempt to improve performance in the future, I would, among other things, modify the optimization program to include other neural network configurations beyond sequential.
 
 ----
 
