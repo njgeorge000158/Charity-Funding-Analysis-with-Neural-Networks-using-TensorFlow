@@ -112,15 +112,25 @@ Jupyter Notebook, Numpy, Pandas, Python 3.11.4, Keras, TensorFlow
 
   &emsp; |&rarr; [./images/charity_binning_optimizationTable28UpdatedCharityDataTable.png](./images/charity_binning_optimizationTable28UpdatedCharityDataTable.png)
 
+  &emsp; |&rarr; [./images/charity_analysisTable43ModelPredictionsvsActualValues.png](./images/charity_analysisTable43ModelPredictionsvsActualValues.png)
+
+  &emsp; |&rarr; [./images/charity_binning_optimizationTable12CharityDataTable.png](./images/charity_binning_optimizationTable12CharityDataTable.png)
+
+  &emsp; |&rarr; [./images/charity_binning_optimizationTable28UpdatedCharityDataTable.png](./images/charity_binning_optimizationTable28UpdatedCharityDataTable.png)
+
+  &emsp; |&rarr; [./images/charity_hyperparameters_optimizationTable12CharityDataTable.png](./images/charity_hyperparameters_optimizationTable12CharityDataTable.png)
+
+  &emsp; |&rarr; [./images/charity_hyperparameters_optimizationTable25UpdatedCharityDataTable.png](./images/charity_hyperparameters_optimizationTable25UpdatedCharityDataTable.png)
+
   &emsp; |&rarr; [./images/README.md](./images/README.md)
 
 |&rarr; [./logs/](./logs/)
 
-  &emsp; |&rarr; [./logs/20240506charity_log.txt](./logs/20240506charity_log.txt)
+  &emsp; |&rarr; [./logs/20240507charity_log.txt](./logs/20240507charity_log.txt)
 
   &emsp; |&rarr; [./logs/20240506charity_binning_optimization_log.txt](./logs/20240506charity_binning_optimization_log.txt)
 
-  &emsp; |&rarr; [./logs/20240506charity_hyperparameters_optimization_log.txt](./logs/20240506charity_hyperparameters_optimization_log.txt)
+  &emsp; |&rarr; [./logs/20240507charity_hyperparameters_optimization_log.txt](./logs/20240507charity_hyperparameters_optimization_log.txt)
 
   &emsp; |&rarr; [./logs/README.md](./logs/README.md)
 
