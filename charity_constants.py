@@ -36,7 +36,7 @@ INPUT_FILE_PATH = logx.RESOURCES_DIRECTORY_PATH + '/charity_data.csv'
 
 BINNING_PARAMETERS_FILE_PATH = logx.MODELS_DIRECTORY_PATH + '/charity_data_binning_parameters.sav'
 
-BINNED_CHARITY_DATA_FILE_PATH = logx.MODELS_DIRECTORY_PATH + '/binned_charity_data.sav'
+BINNED_CHARITY_DATA_FILE_PATH = logx.MODELS_DIRECTORY_PATH + '/charity_data_binned.sav'
 
 MODEL_FILE_PATH = logx.MODELS_DIRECTORY_PATH + '/charity_nn_model.keras'
 
@@ -53,10 +53,6 @@ NN_MAX_EPOCHS = 1000
 NN_VERBOSE = 'auto'
 
 NN_RANDOM_STATE = 21
-
-NN_TRIAL_ACCURACY_GOAL = 0.81
-
-NN_MAX_TRIALS = 20
 
 
 # In[ ]:

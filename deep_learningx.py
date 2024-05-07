@@ -304,7 +304,7 @@ def return_sequential_neural_net_model(hp):
 
     sequential_neural_net_model.add \
         (tf.keras.layers.Dropout \
-             (rate = hp.Float('input_dropout_rate', 
+             (rate = hp.Float('first_dropout_rate', 
               min_value = SEQUENTIAL_HYPERPARAMETERS_DICTIONARY['first_dropout_range'][0],
               max_value = SEQUENTIAL_HYPERPARAMETERS_DICTIONARY['first_dropout_range'][1],
               step = SEQUENTIAL_HYPERPARAMETERS_DICTIONARY['first_dropout_step'],
