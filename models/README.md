@@ -1,4 +1,4 @@
-This folder holds the saved model and parameter files for the IPython Notebooks, charity_binning_optimization.ipynb and charity.ipynb.
+This folder holds the saved model and parameter files for the IPython Notebooks, charity.ipynb and charity_binning_optimization.ipynb.
 
 ----
 
