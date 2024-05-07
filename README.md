@@ -26,9 +26,11 @@ The purpose of this analysis is to create a binary classification model using de
 
 <img width="657" alt="Screenshot 2024-05-07 at 9 45 07 AM" src="https://github.com/njgeorge000158/Charity-Funding-Analysis-with-Neural-Networks-using-TensorFlow/assets/137228821/e94b2c58-5c17-44a2-9c16-2292760e6311">
 
-- The model has two hidden layers and one output layer.  The two hidden layers consist of 57 and 20 neurons, respectively, and use SeLU activation functions.  Because this is a binary classification model, the output layer has 1 neuron, which uses a Linear activation function.  The structure maintains the ability to learn patterns effectively while striking a balance between complexity and overfitting.
+- The model has two hidden layers and one output layer.  The two hidden layers consist of 57 and 20 neurons, respectively, and use SeLU activation functions.  The output layer has 1 neuron, which uses a Linear activation function. The model uses an Adamax optimizer and a Huber loss function. The structure maintains the ability to learn patterns effectively while striking a balance between complexity and overfitting.
 
-Once implemented, the optimized model attained a predictive accuracy of 80.94% and loss of 6.36%.
+<img width="925" alt="Screenshot 2024-05-07 at 9 46 47 AM" src="https://github.com/njgeorge000158/Charity-Funding-Analysis-with-Neural-Networks-using-TensorFlow/assets/137228821/078081b0-ea0e-4e5b-bebf-063e5433c12a">
+
+Once implemented, the optimized model attained a predictive accuracy of 81.41% and loss of 6.78%.
 
 ## **Summary**
 
