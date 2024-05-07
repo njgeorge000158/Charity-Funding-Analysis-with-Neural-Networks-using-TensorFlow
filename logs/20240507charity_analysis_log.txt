@@ -1,0 +1,412 @@
+
+Timepoint: 2024/05/07 09:39:25
+Program execution begins...
+
+
+
+
+             EIN                                               NAME  \
+0       10520599                       BLUE KNIGHTS MOTORCYCLE CLUB   
+1       10531628             AMERICAN CHESAPEAKE CLUB CHARITABLE TR   
+2       10547893                 ST CLOUD PROFESSIONAL FIREFIGHTERS   
+3       10553066                     SOUTHSIDE ATHLETIC ASSOCIATION   
+4       10556103           GENETIC RESEARCH INSTITUTE OF THE DESERT   
+...          ...                                                ...   
+34294  996009318              THE LIONS CLUB OF HONOLULU KAMEHAMEHA   
+34295  996010315           INTERNATIONAL ASSOCIATION OF LIONS CLUBS   
+34296  996012607                                PTA HAWAII CONGRESS   
+34297  996015768  AMERICAN FEDERATION OF GOVERNMENT EMPLOYEES LO...   
+34298  996086871                           WATERHOUSE CHARITABLE TR   
+
+      APPLICATION_TYPE       AFFILIATION CLASSIFICATION      USE_CASE  \
+0                  T10       Independent          C1000    ProductDev   
+1                   T3       Independent          C2000  Preservation   
+2                   T5  CompanySponsored          C3000    ProductDev   
+3                   T3  CompanySponsored          C2000  Preservation   
+4                   T3       Independent          C1000     Heathcare   
+...                ...               ...            ...           ...   
+34294               T4       Independent          C1000    ProductDev   
+34295               T4  CompanySponsored          C3000    ProductDev   
+34296               T3  CompanySponsored          C2000  Preservation   
+34297               T5       Independent          C3000    ProductDev   
+34298               T3       Independent          C1000  Preservation   
+
+       ORGANIZATION  STATUS     INCOME_AMT SPECIAL_CONSIDERATIONS   ASK_AMT  \
+0       Association       1              0                      N      5000   
+1      Co-operative       1         1-9999                      N    108590   
+2       Association       1              0                      N      5000   
+3             Trust       1    10000-24999                      N      6692   
+4             Trust       1  100000-499999                      N    142590   
+...             ...     ...            ...                    ...       ...   
+34294   Association       1              0                      N      5000   
+34295   Association       1              0                      N      5000   
+34296   Association       1              0                      N      5000   
+34297   Association       1              0                      N      5000   
+34298  Co-operative       1          1M-5M                      N  36500179   
+
+       IS_SUCCESSFUL  
+0                  1  
+1                  1  
+2                  0  
+3                  1  
+4                  1  
+...              ...  
+34294              0  
+34295              0  
+34296              0  
+34297              1  
+34298              0  
+
+[34299 rows x 12 columns]
+
+
+
+0               0-9999
+1        100000-499999
+2               0-9999
+3               0-9999
+4        100000-499999
+             ...      
+34294           0-9999
+34295           0-9999
+34296           0-9999
+34297           0-9999
+34298          10M-50M
+Name: ASK_AMT, Length: 34299, dtype: category
+Categories (9, object): ['0-9999' < '10000-24999' < '25000-99999' < '100000-499999' ... '1M-5M' < '5M-10M' < '10M-50M' < '50M+']
+
+
+
+                                                    NAME APPLICATION_TYPE  \
+0                           BLUE KNIGHTS MOTORCYCLE CLUB              T10   
+1                 AMERICAN CHESAPEAKE CLUB CHARITABLE TR               T3   
+2                     ST CLOUD PROFESSIONAL FIREFIGHTERS               T5   
+3                         SOUTHSIDE ATHLETIC ASSOCIATION               T3   
+4               GENETIC RESEARCH INSTITUTE OF THE DESERT               T3   
+...                                                  ...              ...   
+34294              THE LIONS CLUB OF HONOLULU KAMEHAMEHA               T4   
+34295           INTERNATIONAL ASSOCIATION OF LIONS CLUBS               T4   
+34296                                PTA HAWAII CONGRESS               T3   
+34297  AMERICAN FEDERATION OF GOVERNMENT EMPLOYEES LO...               T5   
+34298                           WATERHOUSE CHARITABLE TR               T3   
+
+            AFFILIATION CLASSIFICATION      USE_CASE  ORGANIZATION  \
+0           Independent          C1000    ProductDev   Association   
+1           Independent          C2000  Preservation  Co-operative   
+2      CompanySponsored          C3000    ProductDev   Association   
+3      CompanySponsored          C2000  Preservation         Trust   
+4           Independent          C1000     Heathcare         Trust   
+...                 ...            ...           ...           ...   
+34294       Independent          C1000    ProductDev   Association   
+34295  CompanySponsored          C3000    ProductDev   Association   
+34296  CompanySponsored          C2000  Preservation   Association   
+34297       Independent          C3000    ProductDev   Association   
+34298       Independent          C1000  Preservation  Co-operative   
+
+          INCOME_AMT        ASK_AMT  IS_SUCCESSFUL  
+0                  0         0-9999              1  
+1             1-9999  100000-499999              1  
+2                  0         0-9999              0  
+3        10000-24999         0-9999              1  
+4      100000-499999  100000-499999              1  
+...              ...            ...            ...  
+34294              0         0-9999              0  
+34295              0         0-9999              0  
+34296              0         0-9999              0  
+34297              0         0-9999              1  
+34298          1M-5M        10M-50M              0  
+
+[34299 rows x 9 columns]
+
+
+
+NAME
+OTHER                                                                18776
+PARENT BOOSTER USA INC                                                1260
+TOPS CLUB INC                                                          765
+UNITED STATES BOWLING CONGRESS INC                                     700
+WASHINGTON STATE UNIVERSITY                                            492
+                                                                     ...  
+CONFRERIE DE-LA-CHAINE DES ROTISSEURS LTD                                2
+MILITARY ORDER OF THE COOTIE OF THE UNITED STATES                        2
+PAN AMERICAN ROUND TABLE OF TEXAS                                        2
+NATIONAL COUNCIL OF THE UNITED STATES SOCIETY OF ST VNCNT DE PAUL        2
+NATIONAL SOCIETY COLONIAL DAMES XVII CENTURY                             2
+Name: count, Length: 793, dtype: int64
+
+
+
+APPLICATION_TYPE
+T3     27037
+T4      1542
+T6      1216
+T5      1173
+T19     1065
+T8       737
+T7       725
+T10      528
+T20      276
+Name: count, dtype: int64
+
+
+
+AFFILIATION
+Independent         18480
+CompanySponsored    15705
+Family/Parent          64
+OTHER                  50
+Name: count, dtype: int64
+
+
+
+CLASSIFICATION
+C1000    17326
+C2200    16973
+Name: count, dtype: int64
+
+
+
+USE_CASE
+Preservation     28095
+ProductDev        5671
+CommunityServ      384
+OTHER              149
+Name: count, dtype: int64
+
+
+
+AFFILIATION
+Independent         18480
+CompanySponsored    15705
+Family/Parent          64
+OTHER                  50
+Name: count, dtype: int64
+
+
+
+INCOME_AMT
+0                24388
+25000-99999       3747
+100000-499999     3374
+OTHER             1835
+1M-5M              955
+Name: count, dtype: int64
+
+
+
+ASK_AMT
+0-9999           25947
+25000-99999       2686
+100000-499999     2304
+10000-24999       1135
+1M-5M              940
+500000-999999      650
+10M-50M            258
+5M-10M             225
+OTHER               53
+Name: count, dtype: int64
+
+
+
+                                           NAME APPLICATION_TYPE  \
+0                  BLUE KNIGHTS MOTORCYCLE CLUB              T10   
+1                                         OTHER               T3   
+2                                         OTHER               T5   
+3                                         OTHER               T3   
+4                                         OTHER               T3   
+...                                         ...              ...   
+34294                                     OTHER               T4   
+34295  INTERNATIONAL ASSOCIATION OF LIONS CLUBS               T4   
+34296                       PTA HAWAII CONGRESS               T3   
+34297                                     OTHER               T5   
+34298                                     OTHER               T3   
+
+            AFFILIATION CLASSIFICATION      USE_CASE  ORGANIZATION  \
+0           INDEPENDENT          C1000    PRODUCTDEV   ASSOCIATION   
+1           INDEPENDENT          C2200  PRESERVATION  CO-OPERATIVE   
+2      COMPANYSPONSORED          C2200    PRODUCTDEV   ASSOCIATION   
+3      COMPANYSPONSORED          C2200  PRESERVATION         TRUST   
+4           INDEPENDENT          C1000         OTHER         TRUST   
+...                 ...            ...           ...           ...   
+34294       INDEPENDENT          C1000    PRODUCTDEV   ASSOCIATION   
+34295  COMPANYSPONSORED          C2200    PRODUCTDEV   ASSOCIATION   
+34296  COMPANYSPONSORED          C2200  PRESERVATION   ASSOCIATION   
+34297       INDEPENDENT          C2200    PRODUCTDEV   ASSOCIATION   
+34298       INDEPENDENT          C1000  PRESERVATION  CO-OPERATIVE   
+
+          INCOME_AMT        ASK_AMT  IS_SUCCESSFUL  
+0                  0         0-9999              1  
+1              OTHER  100000-499999              1  
+2                  0         0-9999              0  
+3              OTHER         0-9999              1  
+4      100000-499999  100000-499999              1  
+...              ...            ...            ...  
+34294              0         0-9999              0  
+34295              0         0-9999              0  
+34296              0         0-9999              0  
+34297              0         0-9999              1  
+34298          1M-5M        10M-50M              0  
+
+[34299 rows x 9 columns]
+
+
+
+       IS_SUCCESSFUL  NAME_4-H CLUBS & AFFILIATED 4-H ORGANIZATIONS  \
+0                  1                                          False   
+1                  1                                          False   
+2                  0                                          False   
+3                  1                                          False   
+4                  1                                          False   
+...              ...                                            ...   
+34294              0                                          False   
+34295              0                                          False   
+34296              0                                          False   
+34297              1                                          False   
+34298              0                                          False   
+
+       NAME_AACE INTERNATIONAL  NAME_ACADEMY OF GENERAL DENTISTRY  \
+0                        False                              False   
+1                        False                              False   
+2                        False                              False   
+3                        False                              False   
+4                        False                              False   
+...                        ...                                ...   
+34294                    False                              False   
+34295                    False                              False   
+34296                    False                              False   
+34297                    False                              False   
+34298                    False                              False   
+
+       NAME_ACADEMY OF MANAGED CARE PHARMACY  \
+0                                      False   
+1                                      False   
+2                                      False   
+3                                      False   
+4                                      False   
+...                                      ...   
+34294                                  False   
+34295                                  False   
+34296                                  False   
+34297                                  False   
+34298                                  False   
+
+       NAME_ACE MENTOR PROGRAM OF AMERICA INC  \
+0                                       False   
+1                                       False   
+2                                       False   
+3                                       False   
+4                                       False   
+...                                       ...   
+34294                                   False   
+34295                                   False   
+34296                                   False   
+34297                                   False   
+34298                                   False   
+
+       NAME_ACTIVE 20-30 UNITED STATES AND CANADA  NAME_ACTS MINISTRY  \
+0                                           False               False   
+1                                           False               False   
+2                                           False               False   
+3                                           False               False   
+4                                           False               False   
+...                                           ...                 ...   
+34294                                       False               False   
+34295                                       False               False   
+34296                                       False               False   
+34297                                       False               False   
+34298                                       False               False   
+
+       NAME_ACTS MISSIONS  \
+0                   False   
+1                   False   
+2                   False   
+3                   False   
+4                   False   
+...                   ...   
+34294               False   
+34295               False   
+34296               False   
+34297               False   
+34298               False   
+
+       NAME_AFRICAN-AMERICAN POSTAL LEAGUE UNITED FOR SUCCESS A-PLUS  ...  \
+0                                                  False              ...   
+1                                                  False              ...   
+2                                                  False              ...   
+3                                                  False              ...   
+4                                                  False              ...   
+...                                                  ...              ...   
+34294                                              False              ...   
+34295                                              False              ...   
+34296                                              False              ...   
+34297                                              False              ...   
+34298                                              False              ...   
+
+       INCOME_AMT_OTHER  ASK_AMT_0-9999  ASK_AMT_10000-24999  \
+0                 False            True                False   
+1                  True           False                False   
+2                 False            True                False   
+3                  True            True                False   
+4                 False           False                False   
+...                 ...             ...                  ...   
+34294             False            True                False   
+34295             False            True                False   
+34296             False            True                False   
+34297             False            True                False   
+34298             False           False                False   
+
+       ASK_AMT_100000-499999  ASK_AMT_10M-50M  ASK_AMT_1M-5M  \
+0                      False            False          False   
+1                       True            False          False   
+2                      False            False          False   
+3                      False            False          False   
+4                       True            False          False   
+...                      ...              ...            ...   
+34294                  False            False          False   
+34295                  False            False          False   
+34296                  False            False          False   
+34297                  False            False          False   
+34298                  False             True          False   
+
+       ASK_AMT_25000-99999  ASK_AMT_500000-999999  ASK_AMT_5M-10M  \
+0                    False                  False           False   
+1                    False                  False           False   
+2                    False                  False           False   
+3                    False                  False           False   
+4                    False                  False           False   
+...                    ...                    ...             ...   
+34294                False                  False           False   
+34295                False                  False           False   
+34296                False                  False           False   
+34297                False                  False           False   
+34298                False                  False           False   
+
+       ASK_AMT_OTHER  
+0              False  
+1              False  
+2              False  
+3              False  
+4              False  
+...              ...  
+34294          False  
+34295          False  
+34296          False  
+34297          False  
+34298          False  
+
+[34299 rows x 831 columns]
+
+
+
+[1 1 0 ... 0 1 0]
+
+
+
+[[False False False ... False False False]
+ [False False False ... False False False]
+ [False False False ... False False False]
+ ...
+ [False False False ... False False False]
+ [False False False ... False False False]
+ [False False False ... False False False]]
+

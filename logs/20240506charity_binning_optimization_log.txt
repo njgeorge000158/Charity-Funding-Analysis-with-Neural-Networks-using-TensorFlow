@@ -1,0 +1,12031 @@
+
+Timepoint: 2024/05/06 10:21:01
+Program execution begins...
+
+
+
+
+             EIN                                               NAME  \
+0       10520599                       BLUE KNIGHTS MOTORCYCLE CLUB   
+1       10531628             AMERICAN CHESAPEAKE CLUB CHARITABLE TR   
+2       10547893                 ST CLOUD PROFESSIONAL FIREFIGHTERS   
+3       10553066                     SOUTHSIDE ATHLETIC ASSOCIATION   
+4       10556103           GENETIC RESEARCH INSTITUTE OF THE DESERT   
+...          ...                                                ...   
+34294  996009318              THE LIONS CLUB OF HONOLULU KAMEHAMEHA   
+34295  996010315           INTERNATIONAL ASSOCIATION OF LIONS CLUBS   
+34296  996012607                                PTA HAWAII CONGRESS   
+34297  996015768  AMERICAN FEDERATION OF GOVERNMENT EMPLOYEES LO...   
+34298  996086871                           WATERHOUSE CHARITABLE TR   
+
+      APPLICATION_TYPE       AFFILIATION CLASSIFICATION      USE_CASE  \
+0                  T10       Independent          C1000    ProductDev   
+1                   T3       Independent          C2000  Preservation   
+2                   T5  CompanySponsored          C3000    ProductDev   
+3                   T3  CompanySponsored          C2000  Preservation   
+4                   T3       Independent          C1000     Heathcare   
+...                ...               ...            ...           ...   
+34294               T4       Independent          C1000    ProductDev   
+34295               T4  CompanySponsored          C3000    ProductDev   
+34296               T3  CompanySponsored          C2000  Preservation   
+34297               T5       Independent          C3000    ProductDev   
+34298               T3       Independent          C1000  Preservation   
+
+       ORGANIZATION  STATUS     INCOME_AMT SPECIAL_CONSIDERATIONS   ASK_AMT  \
+0       Association       1              0                      N      5000   
+1      Co-operative       1         1-9999                      N    108590   
+2       Association       1              0                      N      5000   
+3             Trust       1    10000-24999                      N      6692   
+4             Trust       1  100000-499999                      N    142590   
+...             ...     ...            ...                    ...       ...   
+34294   Association       1              0                      N      5000   
+34295   Association       1              0                      N      5000   
+34296   Association       1              0                      N      5000   
+34297   Association       1              0                      N      5000   
+34298  Co-operative       1          1M-5M                      N  36500179   
+
+       IS_SUCCESSFUL  
+0                  1  
+1                  1  
+2                  0  
+3                  1  
+4                  1  
+...              ...  
+34294              0  
+34295              0  
+34296              0  
+34297              1  
+34298              0  
+
+[34299 rows x 12 columns]
+
+
+Timepoint: 2024/05/06 10:21:02
+[1mThere are 34,299 student loans in this data set.
+
+[0m
+
+
+Timepoint: 2024/05/06 10:21:02
+[1mEIN                       34299
+NAME                      34299
+APPLICATION_TYPE          34299
+AFFILIATION               34299
+CLASSIFICATION            34299
+USE_CASE                  34299
+ORGANIZATION              34299
+STATUS                    34299
+INCOME_AMT                34299
+SPECIAL_CONSIDERATIONS    34299
+ASK_AMT                   34299
+IS_SUCCESSFUL             34299
+dtype: int64[0m
+
+
+Timepoint: 2024/05/06 10:21:02
+[1mEIN: 34,299
+[0m
+
+
+Timepoint: 2024/05/06 10:21:02
+[1mNAME: 19,568
+[0m
+
+
+Timepoint: 2024/05/06 10:21:02
+[1mAPPLICATION_TYPE: 17
+[0m
+
+
+Timepoint: 2024/05/06 10:21:02
+[1mAFFILIATION: 6
+[0m
+
+
+Timepoint: 2024/05/06 10:21:02
+[1mCLASSIFICATION: 71
+[0m
+
+
+Timepoint: 2024/05/06 10:21:02
+[1mUSE_CASE: 5
+[0m
+
+
+Timepoint: 2024/05/06 10:21:02
+[1mORGANIZATION: 4
+[0m
+
+
+Timepoint: 2024/05/06 10:21:02
+[1mSTATUS: 2
+[0m
+
+
+Timepoint: 2024/05/06 10:21:02
+[1mINCOME_AMT: 9
+[0m
+
+
+Timepoint: 2024/05/06 10:21:02
+[1mSPECIAL_CONSIDERATIONS: 2
+[0m
+
+
+Timepoint: 2024/05/06 10:21:02
+[1mASK_AMT: 8,747
+[0m
+
+
+Timepoint: 2024/05/06 10:21:02
+[1mIS_SUCCESSFUL: 2
+[0m
+
+
+
+             EIN                                               NAME  \
+0       10520599                       BLUE KNIGHTS MOTORCYCLE CLUB   
+1       10531628             AMERICAN CHESAPEAKE CLUB CHARITABLE TR   
+2       10547893                 ST CLOUD PROFESSIONAL FIREFIGHTERS   
+3       10553066                     SOUTHSIDE ATHLETIC ASSOCIATION   
+4       10556103           GENETIC RESEARCH INSTITUTE OF THE DESERT   
+...          ...                                                ...   
+34294  996009318              THE LIONS CLUB OF HONOLULU KAMEHAMEHA   
+34295  996010315           INTERNATIONAL ASSOCIATION OF LIONS CLUBS   
+34296  996012607                                PTA HAWAII CONGRESS   
+34297  996015768  AMERICAN FEDERATION OF GOVERNMENT EMPLOYEES LO...   
+34298  996086871                           WATERHOUSE CHARITABLE TR   
+
+      APPLICATION_TYPE       AFFILIATION CLASSIFICATION      USE_CASE  \
+0                  T10       Independent          C1000    ProductDev   
+1                   T3       Independent          C2000  Preservation   
+2                   T5  CompanySponsored          C3000    ProductDev   
+3                   T3  CompanySponsored          C2000  Preservation   
+4                   T3       Independent          C1000     Heathcare   
+...                ...               ...            ...           ...   
+34294               T4       Independent          C1000    ProductDev   
+34295               T4  CompanySponsored          C3000    ProductDev   
+34296               T3  CompanySponsored          C2000  Preservation   
+34297               T5       Independent          C3000    ProductDev   
+34298               T3       Independent          C1000  Preservation   
+
+       ORGANIZATION  STATUS     INCOME_AMT SPECIAL_CONSIDERATIONS      TEMP  \
+0       Association       1              0                      N      5000   
+1      Co-operative       1         1-9999                      N    108590   
+2       Association       1              0                      N      5000   
+3             Trust       1    10000-24999                      N      6692   
+4             Trust       1  100000-499999                      N    142590   
+...             ...     ...            ...                    ...       ...   
+34294   Association       1              0                      N      5000   
+34295   Association       1              0                      N      5000   
+34296   Association       1              0                      N      5000   
+34297   Association       1              0                      N      5000   
+34298  Co-operative       1          1M-5M                      N  36500179   
+
+       IS_SUCCESSFUL  
+0                  1  
+1                  1  
+2                  0  
+3                  1  
+4                  1  
+...              ...  
+34294              0  
+34295              0  
+34296              0  
+34297              1  
+34298              0  
+
+[34299 rows x 12 columns]
+
+
+
+0               0-9999
+1        100000-499999
+2               0-9999
+3               0-9999
+4        100000-499999
+             ...      
+34294           0-9999
+34295           0-9999
+34296           0-9999
+34297           0-9999
+34298          10M-50M
+Name: ASK_AMT, Length: 34299, dtype: category
+Categories (9, object): ['0-9999' < '10000-24999' < '25000-99999' < '100000-499999' ... '1M-5M' < '5M-10M' < '10M-50M' < '50M+']
+
+
+
+                                                    NAME APPLICATION_TYPE  \
+0                           BLUE KNIGHTS MOTORCYCLE CLUB              T10   
+1                 AMERICAN CHESAPEAKE CLUB CHARITABLE TR               T3   
+2                     ST CLOUD PROFESSIONAL FIREFIGHTERS               T5   
+3                         SOUTHSIDE ATHLETIC ASSOCIATION               T3   
+4               GENETIC RESEARCH INSTITUTE OF THE DESERT               T3   
+...                                                  ...              ...   
+34294              THE LIONS CLUB OF HONOLULU KAMEHAMEHA               T4   
+34295           INTERNATIONAL ASSOCIATION OF LIONS CLUBS               T4   
+34296                                PTA HAWAII CONGRESS               T3   
+34297  AMERICAN FEDERATION OF GOVERNMENT EMPLOYEES LO...               T5   
+34298                           WATERHOUSE CHARITABLE TR               T3   
+
+            AFFILIATION CLASSIFICATION      USE_CASE  ORGANIZATION  \
+0           Independent          C1000    ProductDev   Association   
+1           Independent          C2000  Preservation  Co-operative   
+2      CompanySponsored          C3000    ProductDev   Association   
+3      CompanySponsored          C2000  Preservation         Trust   
+4           Independent          C1000     Heathcare         Trust   
+...                 ...            ...           ...           ...   
+34294       Independent          C1000    ProductDev   Association   
+34295  CompanySponsored          C3000    ProductDev   Association   
+34296  CompanySponsored          C2000  Preservation   Association   
+34297       Independent          C3000    ProductDev   Association   
+34298       Independent          C1000  Preservation  Co-operative   
+
+          INCOME_AMT        ASK_AMT  IS_SUCCESSFUL  
+0                  0         0-9999              1  
+1             1-9999  100000-499999              1  
+2                  0         0-9999              0  
+3        10000-24999         0-9999              1  
+4      100000-499999  100000-499999              1  
+...              ...            ...            ...  
+34294              0         0-9999              0  
+34295              0         0-9999              0  
+34296              0         0-9999              0  
+34297              0         0-9999              1  
+34298          1M-5M        10M-50M              0  
+
+[34299 rows x 9 columns]
+
+
+
+                                                    NAME APPLICATION_TYPE  \
+0                           BLUE KNIGHTS MOTORCYCLE CLUB              T10   
+1                 AMERICAN CHESAPEAKE CLUB CHARITABLE TR               T3   
+2                     ST CLOUD PROFESSIONAL FIREFIGHTERS               T5   
+3                         SOUTHSIDE ATHLETIC ASSOCIATION               T3   
+4               GENETIC RESEARCH INSTITUTE OF THE DESERT               T3   
+...                                                  ...              ...   
+34294              THE LIONS CLUB OF HONOLULU KAMEHAMEHA               T4   
+34295           INTERNATIONAL ASSOCIATION OF LIONS CLUBS               T4   
+34296                                PTA HAWAII CONGRESS               T3   
+34297  AMERICAN FEDERATION OF GOVERNMENT EMPLOYEES LO...               T5   
+34298                           WATERHOUSE CHARITABLE TR               T3   
+
+            AFFILIATION CLASSIFICATION      USE_CASE  ORGANIZATION  \
+0           INDEPENDENT          C1000    PRODUCTDEV   ASSOCIATION   
+1           INDEPENDENT          C2000  PRESERVATION  CO-OPERATIVE   
+2      COMPANYSPONSORED          C3000    PRODUCTDEV   ASSOCIATION   
+3      COMPANYSPONSORED          C2000  PRESERVATION         TRUST   
+4           INDEPENDENT          C1000     HEATHCARE         TRUST   
+...                 ...            ...           ...           ...   
+34294       INDEPENDENT          C1000    PRODUCTDEV   ASSOCIATION   
+34295  COMPANYSPONSORED          C3000    PRODUCTDEV   ASSOCIATION   
+34296  COMPANYSPONSORED          C2000  PRESERVATION   ASSOCIATION   
+34297       INDEPENDENT          C3000    PRODUCTDEV   ASSOCIATION   
+34298       INDEPENDENT          C1000  PRESERVATION  CO-OPERATIVE   
+
+          INCOME_AMT        ASK_AMT  IS_SUCCESSFUL  
+0                  0         0-9999              1  
+1             1-9999  100000-499999              1  
+2                  0         0-9999              0  
+3        10000-24999         0-9999              1  
+4      100000-499999  100000-499999              1  
+...              ...            ...            ...  
+34294              0         0-9999              0  
+34295              0         0-9999              0  
+34296              0         0-9999              0  
+34297              0         0-9999              1  
+34298          1M-5M        10M-50M              0  
+
+[34299 rows x 9 columns]
+
+
+Timepoint: 2024/05/06 10:21:04
+[1mProcessing: 1/93
+[0m
+
+
+Timepoint: 2024/05/06 10:21:04
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:21:35
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:21:35
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:21:35
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:21:35
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:21:35
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:22:22
+[1mProcessing: 2/93
+[0m
+
+
+Timepoint: 2024/05/06 10:22:22
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:22:53
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:22:53
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:22:53
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:22:53
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:22:53
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:23:24
+[1mProcessing: 3/93
+[0m
+
+
+Timepoint: 2024/05/06 10:23:24
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:23:54
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:23:54
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:23:54
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:23:54
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:23:54
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:24:35
+[1mProcessing: 4/93
+[0m
+
+
+Timepoint: 2024/05/06 10:24:35
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:25:06
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:25:06
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:25:06
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:25:06
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:25:06
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:25:50
+[1mProcessing: 5/93
+[0m
+
+
+Timepoint: 2024/05/06 10:25:50
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:26:20
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:26:20
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:26:20
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:26:20
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:26:20
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:27:06
+[1mProcessing: 6/93
+[0m
+
+
+Timepoint: 2024/05/06 10:27:06
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:27:37
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:27:37
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:27:37
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:27:37
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:27:37
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:28:25
+[1mProcessing: 7/93
+[0m
+
+
+Timepoint: 2024/05/06 10:28:25
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:28:56
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:28:56
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:28:56
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:28:56
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:28:56
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:29:36
+[1mProcessing: 8/93
+[0m
+
+
+Timepoint: 2024/05/06 10:29:36
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:30:06
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:30:06
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:30:06
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:30:06
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:30:06
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:30:56
+[1mProcessing: 9/93
+[0m
+
+
+Timepoint: 2024/05/06 10:30:56
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:31:27
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:31:27
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:31:27
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:31:27
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:31:27
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:32:12
+[1mProcessing: 10/93
+[0m
+
+
+Timepoint: 2024/05/06 10:32:12
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:32:43
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:32:43
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:32:43
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:32:43
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:32:43
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:33:21
+[1mProcessing: 11/93
+[0m
+
+
+Timepoint: 2024/05/06 10:33:21
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:33:52
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:33:52
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:33:52
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:33:52
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:33:52
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:34:26
+[1mProcessing: 12/93
+[0m
+
+
+Timepoint: 2024/05/06 10:34:26
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:34:57
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:34:57
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:34:57
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:34:57
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:34:57
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:35:46
+[1mProcessing: 13/93
+[0m
+
+
+Timepoint: 2024/05/06 10:35:46
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:36:17
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:36:17
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:36:17
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:36:17
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:36:17
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:36:48
+[1mProcessing: 14/93
+[0m
+
+
+Timepoint: 2024/05/06 10:36:48
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:37:19
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:37:19
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:37:19
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:37:19
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:37:19
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:37:54
+[1mProcessing: 15/93
+[0m
+
+
+Timepoint: 2024/05/06 10:37:54
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:38:25
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:38:25
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:38:25
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:38:25
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:38:25
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:38:57
+[1mProcessing: 16/93
+[0m
+
+
+Timepoint: 2024/05/06 10:38:57
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:39:28
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:39:28
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:39:28
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:39:28
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:39:28
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:39:58
+[1mProcessing: 17/93
+[0m
+
+
+Timepoint: 2024/05/06 10:39:58
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:40:29
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:40:29
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:40:29
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:40:29
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:40:29
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:41:01
+[1mProcessing: 18/93
+[0m
+
+
+Timepoint: 2024/05/06 10:41:01
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:41:32
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:41:33
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:41:33
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:41:33
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:41:33
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:42:23
+[1mProcessing: 19/93
+[0m
+
+
+Timepoint: 2024/05/06 10:42:23
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:42:55
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:42:55
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:42:55
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:42:55
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:42:55
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:43:31
+[1mProcessing: 20/93
+[0m
+
+
+Timepoint: 2024/05/06 10:43:31
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:44:03
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:44:03
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:44:03
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:44:03
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:44:03
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:44:33
+[1mProcessing: 21/93
+[0m
+
+
+Timepoint: 2024/05/06 10:44:33
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:45:05
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:45:05
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:45:05
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:45:05
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:45:05
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:45:38
+[1mProcessing: 22/93
+[0m
+
+
+Timepoint: 2024/05/06 10:45:38
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:46:10
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:46:10
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:46:10
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:46:10
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:46:10
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:46:42
+[1mProcessing: 23/93
+[0m
+
+
+Timepoint: 2024/05/06 10:46:42
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:47:14
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:47:14
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:47:14
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:47:14
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:47:14
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:47:50
+[1mProcessing: 24/93
+[0m
+
+
+Timepoint: 2024/05/06 10:47:50
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:48:21
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:48:21
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:48:21
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:48:21
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:48:21
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:48:52
+[1mProcessing: 25/93
+[0m
+
+
+Timepoint: 2024/05/06 10:48:52
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:49:23
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:49:23
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:49:23
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:49:23
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:49:23
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:49:58
+[1mProcessing: 26/93
+[0m
+
+
+Timepoint: 2024/05/06 10:49:58
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:50:30
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:50:30
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:50:30
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:50:30
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:50:30
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:51:06
+[1mProcessing: 27/93
+[0m
+
+
+Timepoint: 2024/05/06 10:51:06
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:51:38
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:51:38
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:51:38
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:51:38
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:51:38
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:52:10
+[1mProcessing: 28/93
+[0m
+
+
+Timepoint: 2024/05/06 10:52:10
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:52:42
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:52:42
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:52:42
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:52:42
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:52:42
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:53:13
+[1mProcessing: 29/93
+[0m
+
+
+Timepoint: 2024/05/06 10:53:13
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:53:44
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:53:44
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:53:44
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:53:44
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:53:44
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:54:16
+[1mProcessing: 30/93
+[0m
+
+
+Timepoint: 2024/05/06 10:54:16
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:54:47
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:54:47
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:54:47
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:54:47
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:54:47
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:55:16
+[1mProcessing: 31/93
+[0m
+
+
+Timepoint: 2024/05/06 10:55:16
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:55:48
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:55:48
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:55:48
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:55:48
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:55:48
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:56:21
+[1mProcessing: 32/93
+[0m
+
+
+Timepoint: 2024/05/06 10:56:21
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:56:53
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:56:53
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:56:53
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:56:53
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:56:53
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:57:26
+[1mProcessing: 33/93
+[0m
+
+
+Timepoint: 2024/05/06 10:57:26
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:57:58
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:57:58
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:57:58
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:57:58
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:57:58
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:58:35
+[1mProcessing: 34/93
+[0m
+
+
+Timepoint: 2024/05/06 10:58:35
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 10:59:07
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 10:59:07
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 10:59:07
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 10:59:07
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 10:59:07
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 10:59:46
+[1mProcessing: 35/93
+[0m
+
+
+Timepoint: 2024/05/06 10:59:46
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:00:19
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:00:19
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:00:19
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:00:19
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:00:19
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:00:58
+[1mProcessing: 36/93
+[0m
+
+
+Timepoint: 2024/05/06 11:00:58
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:01:30
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:01:30
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:01:30
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:01:30
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:01:30
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:02:16
+[1mProcessing: 37/93
+[0m
+
+
+Timepoint: 2024/05/06 11:02:16
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:02:48
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:02:48
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:02:48
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:02:48
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:02:48
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:03:18
+[1mProcessing: 38/93
+[0m
+
+
+Timepoint: 2024/05/06 11:03:18
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:03:50
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:03:50
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:03:50
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:03:50
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:03:50
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:04:33
+[1mProcessing: 39/93
+[0m
+
+
+Timepoint: 2024/05/06 11:04:33
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:05:04
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:05:04
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:05:04
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:05:04
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:05:04
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:05:35
+[1mProcessing: 40/93
+[0m
+
+
+Timepoint: 2024/05/06 11:05:35
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:06:06
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:06:06
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:06:06
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:06:06
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:06:06
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:06:43
+[1mProcessing: 41/93
+[0m
+
+
+Timepoint: 2024/05/06 11:06:43
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:07:15
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:07:15
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:07:15
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:07:15
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:07:15
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:08:02
+[1mProcessing: 42/93
+[0m
+
+
+Timepoint: 2024/05/06 11:08:02
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:08:34
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:08:34
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:08:34
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:08:34
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:08:34
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:09:08
+[1mProcessing: 43/93
+[0m
+
+
+Timepoint: 2024/05/06 11:09:08
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:09:40
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:09:40
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:09:40
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:09:40
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:09:40
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:10:14
+[1mProcessing: 44/93
+[0m
+
+
+Timepoint: 2024/05/06 11:10:14
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:10:44
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:10:44
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:10:44
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:10:44
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:10:44
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:11:26
+[1mProcessing: 45/93
+[0m
+
+
+Timepoint: 2024/05/06 11:11:26
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:11:56
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:11:56
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:11:56
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:11:56
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:11:56
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:12:34
+[1mProcessing: 46/93
+[0m
+
+
+Timepoint: 2024/05/06 11:12:34
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:13:04
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:13:04
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:13:04
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:13:04
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:13:04
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:13:36
+[1mProcessing: 47/93
+[0m
+
+
+Timepoint: 2024/05/06 11:13:36
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:14:06
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:14:06
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:14:06
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:14:06
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:14:06
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:14:43
+[1mProcessing: 48/93
+[0m
+
+
+Timepoint: 2024/05/06 11:14:43
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:15:14
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:15:14
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:15:14
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:15:14
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:15:14
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:15:45
+[1mProcessing: 49/93
+[0m
+
+
+Timepoint: 2024/05/06 11:15:45
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:16:16
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:16:16
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:16:16
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:16:16
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:16:16
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:16:46
+[1mProcessing: 50/93
+[0m
+
+
+Timepoint: 2024/05/06 11:16:46
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:17:17
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:17:18
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:17:18
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:17:18
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:17:18
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:17:49
+[1mProcessing: 51/93
+[0m
+
+
+Timepoint: 2024/05/06 11:17:49
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:18:22
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:18:22
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:18:22
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:18:22
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:18:22
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:19:00
+[1mProcessing: 52/93
+[0m
+
+
+Timepoint: 2024/05/06 11:19:00
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:19:33
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:19:33
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:19:33
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:19:33
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:19:33
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:20:15
+[1mProcessing: 53/93
+[0m
+
+
+Timepoint: 2024/05/06 11:20:16
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:20:47
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:20:47
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:20:47
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:20:47
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:20:47
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:21:19
+[1mProcessing: 54/93
+[0m
+
+
+Timepoint: 2024/05/06 11:21:19
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:21:51
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:21:51
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:21:51
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:21:51
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:21:51
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:22:29
+[1mProcessing: 55/93
+[0m
+
+
+Timepoint: 2024/05/06 11:22:29
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:23:01
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:23:01
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:23:01
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:23:01
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:23:01
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:23:37
+[1mProcessing: 56/93
+[0m
+
+
+Timepoint: 2024/05/06 11:23:37
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:24:09
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:24:09
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:24:09
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:24:09
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:24:09
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:24:39
+[1mProcessing: 57/93
+[0m
+
+
+Timepoint: 2024/05/06 11:24:39
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:25:11
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:25:11
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:25:11
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:25:11
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:25:11
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:25:48
+[1mProcessing: 58/93
+[0m
+
+
+Timepoint: 2024/05/06 11:25:48
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:26:20
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:26:20
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:26:20
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:26:20
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:26:20
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:27:06
+[1mProcessing: 59/93
+[0m
+
+
+Timepoint: 2024/05/06 11:27:06
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:27:38
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:27:38
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:27:38
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:27:38
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:27:38
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:28:29
+[1mProcessing: 60/93
+[0m
+
+
+Timepoint: 2024/05/06 11:28:29
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:29:01
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:29:01
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:29:01
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:29:01
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:29:01
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:29:50
+[1mProcessing: 61/93
+[0m
+
+
+Timepoint: 2024/05/06 11:29:50
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:30:23
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:30:23
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:30:23
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:30:23
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:30:23
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:31:00
+[1mProcessing: 62/93
+[0m
+
+
+Timepoint: 2024/05/06 11:31:00
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:31:32
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:31:32
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:31:32
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:31:32
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:31:32
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:32:27
+[1mProcessing: 63/93
+[0m
+
+
+Timepoint: 2024/05/06 11:32:27
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:32:59
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:32:59
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:32:59
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:32:59
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:32:59
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:33:42
+[1mProcessing: 64/93
+[0m
+
+
+Timepoint: 2024/05/06 11:33:42
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:34:15
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:34:15
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:34:15
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:34:15
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:34:15
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:35:02
+[1mProcessing: 65/93
+[0m
+
+
+Timepoint: 2024/05/06 11:35:02
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:35:36
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:35:36
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:35:36
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:35:36
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:35:36
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:36:23
+[1mProcessing: 66/93
+[0m
+
+
+Timepoint: 2024/05/06 11:36:23
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:36:55
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:36:55
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:36:55
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:36:55
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:36:55
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:37:34
+[1mProcessing: 67/93
+[0m
+
+
+Timepoint: 2024/05/06 11:37:34
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:38:07
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:38:07
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:38:07
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:38:07
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:38:07
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:38:45
+[1mProcessing: 68/93
+[0m
+
+
+Timepoint: 2024/05/06 11:38:45
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:39:17
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:39:17
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:39:17
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:39:17
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:39:17
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:39:56
+[1mProcessing: 69/93
+[0m
+
+
+Timepoint: 2024/05/06 11:39:56
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:40:29
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:40:29
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:40:29
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:40:29
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:40:29
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:41:24
+[1mProcessing: 70/93
+[0m
+
+
+Timepoint: 2024/05/06 11:41:24
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:41:56
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:41:56
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:41:56
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:41:56
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:41:56
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:42:53
+[1mProcessing: 71/93
+[0m
+
+
+Timepoint: 2024/05/06 11:42:53
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:43:26
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:43:26
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:43:26
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:43:26
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:43:26
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:44:06
+[1mProcessing: 72/93
+[0m
+
+
+Timepoint: 2024/05/06 11:44:06
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:44:39
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:44:39
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:44:39
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:44:39
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:44:39
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:45:23
+[1mProcessing: 73/93
+[0m
+
+
+Timepoint: 2024/05/06 11:45:23
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:45:55
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:45:55
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:45:56
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:45:56
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:45:56
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:46:56
+[1mProcessing: 74/93
+[0m
+
+
+Timepoint: 2024/05/06 11:46:56
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:47:28
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:47:28
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:47:28
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:47:28
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:47:28
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:48:20
+[1mProcessing: 75/93
+[0m
+
+
+Timepoint: 2024/05/06 11:48:20
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:48:51
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:48:51
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:48:51
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:48:51
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:48:51
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:49:29
+[1mProcessing: 76/93
+[0m
+
+
+Timepoint: 2024/05/06 11:49:29
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:50:04
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:50:04
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:50:04
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:50:04
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:50:04
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:50:45
+[1mProcessing: 77/93
+[0m
+
+
+Timepoint: 2024/05/06 11:50:45
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:51:20
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:51:20
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:51:20
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:51:20
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:51:20
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:51:58
+[1mProcessing: 78/93
+[0m
+
+
+Timepoint: 2024/05/06 11:51:58
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:52:30
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:52:30
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:52:30
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:52:30
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:52:30
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:53:10
+[1mProcessing: 79/93
+[0m
+
+
+Timepoint: 2024/05/06 11:53:10
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:53:43
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:53:43
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:53:43
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:53:43
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:53:43
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:54:22
+[1mProcessing: 80/93
+[0m
+
+
+Timepoint: 2024/05/06 11:54:22
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:54:56
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:54:56
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:54:56
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:54:56
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:54:56
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:55:32
+[1mProcessing: 81/93
+[0m
+
+
+Timepoint: 2024/05/06 11:55:32
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:56:05
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:56:05
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:56:05
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:56:05
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:56:05
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:57:03
+[1mProcessing: 82/93
+[0m
+
+
+Timepoint: 2024/05/06 11:57:03
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:57:35
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:57:35
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:57:35
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:57:35
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:57:35
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:58:16
+[1mProcessing: 83/93
+[0m
+
+
+Timepoint: 2024/05/06 11:58:16
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:58:45
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:58:45
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:58:45
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:58:45
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:58:45
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 11:59:16
+[1mProcessing: 84/93
+[0m
+
+
+Timepoint: 2024/05/06 11:59:16
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 11:59:44
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 11:59:44
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 11:59:44
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 11:59:44
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 11:59:44
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:00:21
+[1mProcessing: 85/93
+[0m
+
+
+Timepoint: 2024/05/06 12:00:21
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:00:50
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:00:50
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:00:50
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:00:50
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:00:50
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:01:25
+[1mProcessing: 86/93
+[0m
+
+
+Timepoint: 2024/05/06 12:01:25
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:01:55
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:01:55
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:01:55
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:01:55
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:01:55
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:03:01
+[1mProcessing: 87/93
+[0m
+
+
+Timepoint: 2024/05/06 12:03:01
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:03:35
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:03:35
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:03:35
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:03:35
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:03:35
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:04:17
+[1mProcessing: 88/93
+[0m
+
+
+Timepoint: 2024/05/06 12:04:17
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:04:51
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:04:51
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:04:52
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:04:52
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:04:52
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:05:30
+[1mProcessing: 89/93
+[0m
+
+
+Timepoint: 2024/05/06 12:05:30
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:06:04
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:06:04
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:06:04
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:06:04
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:06:04
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:07:01
+[1mProcessing: 90/93
+[0m
+
+
+Timepoint: 2024/05/06 12:07:01
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:07:34
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:07:34
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:07:34
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:07:34
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:07:34
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:08:19
+[1mProcessing: 91/93
+[0m
+
+
+Timepoint: 2024/05/06 12:08:19
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:08:52
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:08:52
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:08:52
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:08:52
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:08:52
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:09:36
+[1mProcessing: 92/93
+[0m
+
+
+Timepoint: 2024/05/06 12:09:36
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:10:11
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:10:11
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:10:11
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:10:11
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:10:11
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:11:02
+[1mProcessing: 93/93
+[0m
+
+
+Timepoint: 2024/05/06 12:11:02
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:11:02
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:11:05
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:11:12
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:11:12
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:11:12
+[1mFitting data...
+[0m
+
+
+
+NAME
+Other                                                                18776
+PARENT BOOSTER USA INC                                                1260
+TOPS CLUB INC                                                          765
+UNITED STATES BOWLING CONGRESS INC                                     700
+WASHINGTON STATE UNIVERSITY                                            492
+                                                                     ...  
+CONFRERIE DE-LA-CHAINE DES ROTISSEURS LTD                                2
+MILITARY ORDER OF THE COOTIE OF THE UNITED STATES                        2
+PAN AMERICAN ROUND TABLE OF TEXAS                                        2
+NATIONAL COUNCIL OF THE UNITED STATES SOCIETY OF ST VNCNT DE PAUL        2
+NATIONAL SOCIETY COLONIAL DAMES XVII CENTURY                             2
+Name: count, Length: 793, dtype: int64
+
+
+Timepoint: 2024/05/06 12:16:15
+[1mProcessing: 1/16
+[0m
+
+
+Timepoint: 2024/05/06 12:16:15
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:16:15
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:16:15
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:16:15
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:16:15
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:16:15
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:17:01
+[1mProcessing: 2/16
+[0m
+
+
+Timepoint: 2024/05/06 12:17:01
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:17:01
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:17:01
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:17:01
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:17:01
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:17:01
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:17:51
+[1mProcessing: 3/16
+[0m
+
+
+Timepoint: 2024/05/06 12:17:51
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:17:51
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:17:51
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:17:51
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:17:51
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:17:51
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:18:42
+[1mProcessing: 4/16
+[0m
+
+
+Timepoint: 2024/05/06 12:18:42
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:18:42
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:18:42
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:18:42
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:18:42
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:18:42
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:19:39
+[1mProcessing: 5/16
+[0m
+
+
+Timepoint: 2024/05/06 12:19:39
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:19:39
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:19:39
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:19:40
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:19:40
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:19:40
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:20:21
+[1mProcessing: 6/16
+[0m
+
+
+Timepoint: 2024/05/06 12:20:21
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:20:21
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:20:21
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:20:21
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:20:21
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:20:21
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:21:22
+[1mProcessing: 7/16
+[0m
+
+
+Timepoint: 2024/05/06 12:21:23
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:21:23
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:21:23
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:21:23
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:21:23
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:21:23
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:22:08
+[1mProcessing: 8/16
+[0m
+
+
+Timepoint: 2024/05/06 12:22:08
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:22:08
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:22:08
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:22:08
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:22:08
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:22:08
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:22:57
+[1mProcessing: 9/16
+[0m
+
+
+Timepoint: 2024/05/06 12:22:57
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:22:57
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:22:57
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:22:58
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:22:58
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:22:58
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:23:53
+[1mProcessing: 10/16
+[0m
+
+
+Timepoint: 2024/05/06 12:23:53
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:23:53
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:23:53
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:23:54
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:23:54
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:23:54
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:24:41
+[1mProcessing: 11/16
+[0m
+
+
+Timepoint: 2024/05/06 12:24:41
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:24:41
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:24:41
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:24:41
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:24:41
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:24:41
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:25:23
+[1mProcessing: 12/16
+[0m
+
+
+Timepoint: 2024/05/06 12:25:23
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:25:23
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:25:24
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:25:24
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:25:24
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:25:24
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:26:09
+[1mProcessing: 13/16
+[0m
+
+
+Timepoint: 2024/05/06 12:26:09
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:26:09
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:26:10
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:26:10
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:26:10
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:26:10
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:27:06
+[1mProcessing: 14/16
+[0m
+
+
+Timepoint: 2024/05/06 12:27:06
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:27:06
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:27:07
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:27:07
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:27:07
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:27:07
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:28:11
+[1mProcessing: 15/16
+[0m
+
+
+Timepoint: 2024/05/06 12:28:11
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:28:11
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:28:11
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:28:11
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:28:11
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:28:11
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:28:54
+[1mProcessing: 16/16
+[0m
+
+
+Timepoint: 2024/05/06 12:28:54
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:28:54
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:28:54
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:28:54
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:28:54
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:28:54
+[1mFitting data...
+[0m
+
+
+
+APPLICATION_TYPE
+T3       27037
+Other     5720
+T4        1542
+Name: count, dtype: int64
+
+
+Timepoint: 2024/05/06 12:29:51
+[1mProcessing: 1/7
+[0m
+
+
+Timepoint: 2024/05/06 12:29:51
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:29:51
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:29:52
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:29:52
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:29:52
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:29:52
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:30:39
+[1mProcessing: 2/7
+[0m
+
+
+Timepoint: 2024/05/06 12:30:39
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:30:39
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:30:40
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:30:40
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:30:40
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:30:40
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:31:34
+[1mProcessing: 3/7
+[0m
+
+
+Timepoint: 2024/05/06 12:31:34
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:31:34
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:31:34
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:31:34
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:31:34
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:31:34
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:32:29
+[1mProcessing: 4/7
+[0m
+
+
+Timepoint: 2024/05/06 12:32:29
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:32:29
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:32:29
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:32:30
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:32:30
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:32:30
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:33:22
+[1mProcessing: 5/7
+[0m
+
+
+Timepoint: 2024/05/06 12:33:22
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:33:22
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:33:22
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:33:22
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:33:22
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:33:22
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:34:05
+[1mProcessing: 6/7
+[0m
+
+
+Timepoint: 2024/05/06 12:34:05
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:34:05
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:34:05
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:34:05
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:34:05
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:34:05
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:34:47
+[1mProcessing: 7/7
+[0m
+
+
+Timepoint: 2024/05/06 12:34:47
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:34:47
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:34:48
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:34:48
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:34:48
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:34:48
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:35:30
+[1mProcessing: 1/7
+[0m
+
+
+Timepoint: 2024/05/06 12:35:30
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:35:30
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:35:30
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:35:30
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:35:30
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:35:30
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:36:07
+[1mProcessing: 2/7
+[0m
+
+
+Timepoint: 2024/05/06 12:36:07
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:36:07
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:36:07
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:36:08
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:36:08
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:36:08
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:36:57
+[1mProcessing: 3/7
+[0m
+
+
+Timepoint: 2024/05/06 12:36:57
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:36:57
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:36:57
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:36:57
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:36:57
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:36:57
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:37:53
+[1mProcessing: 4/7
+[0m
+
+
+Timepoint: 2024/05/06 12:37:53
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:37:53
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:37:53
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:37:53
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:37:53
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:37:53
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:38:37
+[1mProcessing: 5/7
+[0m
+
+
+Timepoint: 2024/05/06 12:38:37
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:38:37
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:38:37
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:38:37
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:38:37
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:38:37
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:39:24
+[1mProcessing: 6/7
+[0m
+
+
+Timepoint: 2024/05/06 12:39:24
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:39:24
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:39:24
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:39:24
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:39:24
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:39:24
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:40:12
+[1mProcessing: 7/7
+[0m
+
+
+Timepoint: 2024/05/06 12:40:12
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:40:12
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:40:12
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:40:12
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:40:12
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:40:12
+[1mFitting data...
+[0m
+
+
+
+AFFILIATION
+INDEPENDENT         18480
+COMPANYSPONSORED    15705
+FAMILY/PARENT          64
+Other                  50
+Name: count, dtype: int64
+
+
+Timepoint: 2024/05/06 12:41:05
+[1mProcessing: 1/34
+[0m
+
+
+Timepoint: 2024/05/06 12:41:05
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:41:06
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:41:06
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:41:06
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:41:06
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:41:06
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:42:12
+[1mProcessing: 2/34
+[0m
+
+
+Timepoint: 2024/05/06 12:42:12
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:42:12
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:42:12
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:42:13
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:42:13
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:42:13
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:42:53
+[1mProcessing: 3/34
+[0m
+
+
+Timepoint: 2024/05/06 12:42:53
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:42:54
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:42:54
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:42:54
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:42:54
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:42:54
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:43:41
+[1mProcessing: 4/34
+[0m
+
+
+Timepoint: 2024/05/06 12:43:41
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:43:41
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:43:41
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:43:42
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:43:42
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:43:42
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:44:33
+[1mProcessing: 5/34
+[0m
+
+
+Timepoint: 2024/05/06 12:44:33
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:44:33
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:44:33
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:44:34
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:44:34
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:44:34
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:45:19
+[1mProcessing: 6/34
+[0m
+
+
+Timepoint: 2024/05/06 12:45:19
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:45:19
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:45:20
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:45:20
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:45:20
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:45:20
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:46:16
+[1mProcessing: 7/34
+[0m
+
+
+Timepoint: 2024/05/06 12:46:16
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:46:16
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:46:16
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:46:16
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:46:16
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:46:16
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:46:59
+[1mProcessing: 8/34
+[0m
+
+
+Timepoint: 2024/05/06 12:46:59
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:46:59
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:47:00
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:47:00
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:47:00
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:47:00
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:48:01
+[1mProcessing: 9/34
+[0m
+
+
+Timepoint: 2024/05/06 12:48:01
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:48:01
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:48:01
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:48:01
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:48:01
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:48:01
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:48:41
+[1mProcessing: 10/34
+[0m
+
+
+Timepoint: 2024/05/06 12:48:41
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:48:41
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:48:41
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:48:41
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:48:41
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:48:41
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:49:34
+[1mProcessing: 11/34
+[0m
+
+
+Timepoint: 2024/05/06 12:49:34
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:49:34
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:49:34
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:49:34
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:49:34
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:49:34
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:50:32
+[1mProcessing: 12/34
+[0m
+
+
+Timepoint: 2024/05/06 12:50:32
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:50:32
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:50:32
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:50:32
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:50:32
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:50:32
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:51:29
+[1mProcessing: 13/34
+[0m
+
+
+Timepoint: 2024/05/06 12:51:29
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:51:29
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:51:30
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:51:30
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:51:30
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:51:30
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:52:18
+[1mProcessing: 14/34
+[0m
+
+
+Timepoint: 2024/05/06 12:52:18
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:52:18
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:52:18
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:52:18
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:52:18
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:52:18
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:53:10
+[1mProcessing: 15/34
+[0m
+
+
+Timepoint: 2024/05/06 12:53:10
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:53:10
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:53:10
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:53:10
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:53:10
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:53:10
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:53:59
+[1mProcessing: 16/34
+[0m
+
+
+Timepoint: 2024/05/06 12:53:59
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:53:59
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:53:59
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:53:59
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:53:59
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:53:59
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:54:51
+[1mProcessing: 17/34
+[0m
+
+
+Timepoint: 2024/05/06 12:54:51
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:54:51
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:54:51
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:54:51
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:54:51
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:54:51
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:55:37
+[1mProcessing: 18/34
+[0m
+
+
+Timepoint: 2024/05/06 12:55:37
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:55:37
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:55:37
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:55:38
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:55:38
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:55:38
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:56:27
+[1mProcessing: 19/34
+[0m
+
+
+Timepoint: 2024/05/06 12:56:27
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:56:27
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:56:27
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:56:28
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:56:28
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:56:28
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:57:14
+[1mProcessing: 20/34
+[0m
+
+
+Timepoint: 2024/05/06 12:57:14
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:57:14
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:57:14
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:57:15
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:57:15
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:57:15
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:58:07
+[1mProcessing: 21/34
+[0m
+
+
+Timepoint: 2024/05/06 12:58:07
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:58:07
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:58:07
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:58:07
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:58:07
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:58:07
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:58:53
+[1mProcessing: 22/34
+[0m
+
+
+Timepoint: 2024/05/06 12:58:53
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:58:53
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:58:53
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:58:53
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:58:53
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:58:53
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 12:59:44
+[1mProcessing: 23/34
+[0m
+
+
+Timepoint: 2024/05/06 12:59:44
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 12:59:44
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 12:59:44
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 12:59:45
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 12:59:45
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 12:59:45
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:00:24
+[1mProcessing: 24/34
+[0m
+
+
+Timepoint: 2024/05/06 13:00:24
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:00:24
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:00:24
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:00:24
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:00:24
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:00:24
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:01:09
+[1mProcessing: 25/34
+[0m
+
+
+Timepoint: 2024/05/06 13:01:09
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:01:09
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:01:10
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:01:10
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:01:10
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:01:10
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:02:14
+[1mProcessing: 26/34
+[0m
+
+
+Timepoint: 2024/05/06 13:02:14
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:02:14
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:02:14
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:02:15
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:02:15
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:02:15
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:03:18
+[1mProcessing: 27/34
+[0m
+
+
+Timepoint: 2024/05/06 13:03:18
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:03:18
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:03:18
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:03:18
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:03:18
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:03:18
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:04:19
+[1mProcessing: 28/34
+[0m
+
+
+Timepoint: 2024/05/06 13:04:19
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:04:19
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:04:19
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:04:19
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:04:19
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:04:19
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:05:08
+[1mProcessing: 29/34
+[0m
+
+
+Timepoint: 2024/05/06 13:05:09
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:05:09
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:05:09
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:05:09
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:05:09
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:05:09
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:06:00
+[1mProcessing: 30/34
+[0m
+
+
+Timepoint: 2024/05/06 13:06:00
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:06:00
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:06:00
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:06:00
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:06:00
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:06:00
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:06:43
+[1mProcessing: 31/34
+[0m
+
+
+Timepoint: 2024/05/06 13:06:43
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:06:43
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:06:43
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:06:43
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:06:43
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:06:43
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:07:32
+[1mProcessing: 32/34
+[0m
+
+
+Timepoint: 2024/05/06 13:07:32
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:07:32
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:07:32
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:07:32
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:07:32
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:07:32
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:08:24
+[1mProcessing: 33/34
+[0m
+
+
+Timepoint: 2024/05/06 13:08:24
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:08:24
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:08:24
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:08:24
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:08:24
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:08:24
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:09:16
+[1mProcessing: 34/34
+[0m
+
+
+Timepoint: 2024/05/06 13:09:16
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:09:16
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:09:16
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:09:16
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:09:16
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:09:16
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:10:06
+[1mProcessing: 1/34
+[0m
+
+
+Timepoint: 2024/05/06 13:10:06
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:10:06
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:10:06
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:10:06
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:10:06
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:10:06
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:11:09
+[1mProcessing: 2/34
+[0m
+
+
+Timepoint: 2024/05/06 13:11:09
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:11:09
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:11:09
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:11:09
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:11:09
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:11:09
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:11:57
+[1mProcessing: 3/34
+[0m
+
+
+Timepoint: 2024/05/06 13:11:57
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:11:57
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:11:57
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:11:57
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:11:57
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:11:57
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:12:44
+[1mProcessing: 4/34
+[0m
+
+
+Timepoint: 2024/05/06 13:12:44
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:12:44
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:12:44
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:12:45
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:12:45
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:12:45
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:13:33
+[1mProcessing: 5/34
+[0m
+
+
+Timepoint: 2024/05/06 13:13:33
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:13:33
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:13:33
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:13:33
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:13:34
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:13:34
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:14:21
+[1mProcessing: 6/34
+[0m
+
+
+Timepoint: 2024/05/06 13:14:21
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:14:21
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:14:22
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:14:22
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:14:22
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:14:22
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:15:05
+[1mProcessing: 7/34
+[0m
+
+
+Timepoint: 2024/05/06 13:15:05
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:15:05
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:15:05
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:15:06
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:15:06
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:15:06
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:15:53
+[1mProcessing: 8/34
+[0m
+
+
+Timepoint: 2024/05/06 13:15:53
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:15:53
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:15:53
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:15:53
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:15:53
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:15:53
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:16:45
+[1mProcessing: 9/34
+[0m
+
+
+Timepoint: 2024/05/06 13:16:45
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:16:45
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:16:45
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:16:46
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:16:46
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:16:46
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:17:47
+[1mProcessing: 10/34
+[0m
+
+
+Timepoint: 2024/05/06 13:17:47
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:17:47
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:17:47
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:17:47
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:17:47
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:17:47
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:18:34
+[1mProcessing: 11/34
+[0m
+
+
+Timepoint: 2024/05/06 13:18:34
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:18:34
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:18:34
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:18:35
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:18:35
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:18:35
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:19:20
+[1mProcessing: 12/34
+[0m
+
+
+Timepoint: 2024/05/06 13:19:20
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:19:21
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:19:21
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:19:21
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:19:21
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:19:21
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:20:09
+[1mProcessing: 13/34
+[0m
+
+
+Timepoint: 2024/05/06 13:20:09
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:20:09
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:20:09
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:20:09
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:20:09
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:20:09
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:21:04
+[1mProcessing: 14/34
+[0m
+
+
+Timepoint: 2024/05/06 13:21:04
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:21:04
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:21:04
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:21:04
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:21:04
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:21:04
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:21:51
+[1mProcessing: 15/34
+[0m
+
+
+Timepoint: 2024/05/06 13:21:51
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:21:51
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:21:51
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:21:51
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:21:51
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:21:51
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:22:54
+[1mProcessing: 16/34
+[0m
+
+
+Timepoint: 2024/05/06 13:22:54
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:22:54
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:22:54
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:22:54
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:22:54
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:22:54
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:23:43
+[1mProcessing: 17/34
+[0m
+
+
+Timepoint: 2024/05/06 13:23:43
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:23:43
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:23:43
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:23:43
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:23:43
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:23:43
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:24:25
+[1mProcessing: 18/34
+[0m
+
+
+Timepoint: 2024/05/06 13:24:25
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:24:25
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:24:25
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:24:25
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:24:25
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:24:25
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:25:13
+[1mProcessing: 19/34
+[0m
+
+
+Timepoint: 2024/05/06 13:25:13
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:25:14
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:25:14
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:25:14
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:25:14
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:25:14
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:26:04
+[1mProcessing: 20/34
+[0m
+
+
+Timepoint: 2024/05/06 13:26:04
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:26:04
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:26:04
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:26:04
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:26:04
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:26:04
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:26:50
+[1mProcessing: 21/34
+[0m
+
+
+Timepoint: 2024/05/06 13:26:50
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:26:50
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:26:51
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:26:51
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:26:51
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:26:51
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:27:53
+[1mProcessing: 22/34
+[0m
+
+
+Timepoint: 2024/05/06 13:27:53
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:27:54
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:27:54
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:27:54
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:27:54
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:27:54
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:28:47
+[1mProcessing: 23/34
+[0m
+
+
+Timepoint: 2024/05/06 13:28:47
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:28:47
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:28:47
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:28:47
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:28:47
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:28:47
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:29:36
+[1mProcessing: 24/34
+[0m
+
+
+Timepoint: 2024/05/06 13:29:36
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:29:36
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:29:36
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:29:36
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:29:36
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:29:36
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:30:15
+[1mProcessing: 25/34
+[0m
+
+
+Timepoint: 2024/05/06 13:30:15
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:30:15
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:30:15
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:30:16
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:30:16
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:30:16
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:30:59
+[1mProcessing: 26/34
+[0m
+
+
+Timepoint: 2024/05/06 13:30:59
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:30:59
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:31:00
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:31:00
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:31:00
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:31:00
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:31:42
+[1mProcessing: 27/34
+[0m
+
+
+Timepoint: 2024/05/06 13:31:42
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:31:42
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:31:42
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:31:42
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:31:42
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:31:42
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:32:28
+[1mProcessing: 28/34
+[0m
+
+
+Timepoint: 2024/05/06 13:32:28
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:32:28
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:32:28
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:32:28
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:32:28
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:32:28
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:33:16
+[1mProcessing: 29/34
+[0m
+
+
+Timepoint: 2024/05/06 13:33:16
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:33:16
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:33:16
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:33:17
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:33:17
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:33:17
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:34:00
+[1mProcessing: 30/34
+[0m
+
+
+Timepoint: 2024/05/06 13:34:00
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:34:00
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:34:00
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:34:00
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:34:00
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:34:00
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:34:46
+[1mProcessing: 31/34
+[0m
+
+
+Timepoint: 2024/05/06 13:34:46
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:34:46
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:34:46
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:34:46
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:34:46
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:34:46
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:35:32
+[1mProcessing: 32/34
+[0m
+
+
+Timepoint: 2024/05/06 13:35:32
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:35:32
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:35:33
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:35:33
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:35:33
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:35:33
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:36:17
+[1mProcessing: 33/34
+[0m
+
+
+Timepoint: 2024/05/06 13:36:17
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:36:17
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:36:17
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:36:17
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:36:17
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:36:17
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:37:01
+[1mProcessing: 34/34
+[0m
+
+
+Timepoint: 2024/05/06 13:37:01
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:37:01
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:37:01
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:37:01
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:37:01
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:37:01
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:38:08
+[1mProcessing: 1/34
+[0m
+
+
+Timepoint: 2024/05/06 13:38:08
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:38:08
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:38:08
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:38:08
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:38:08
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:38:08
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:38:53
+[1mProcessing: 2/34
+[0m
+
+
+Timepoint: 2024/05/06 13:38:53
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:38:53
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:38:53
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:38:53
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:38:53
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:38:53
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:39:50
+[1mProcessing: 3/34
+[0m
+
+
+Timepoint: 2024/05/06 13:39:50
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:39:50
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:39:51
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:39:51
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:39:51
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:39:51
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:40:33
+[1mProcessing: 4/34
+[0m
+
+
+Timepoint: 2024/05/06 13:40:33
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:40:33
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:40:33
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:40:33
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:40:33
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:40:33
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:41:19
+[1mProcessing: 5/34
+[0m
+
+
+Timepoint: 2024/05/06 13:41:19
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:41:19
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:41:19
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:41:19
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:41:19
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:41:19
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:42:13
+[1mProcessing: 6/34
+[0m
+
+
+Timepoint: 2024/05/06 13:42:13
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:42:13
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:42:13
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:42:13
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:42:13
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:42:13
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:43:02
+[1mProcessing: 7/34
+[0m
+
+
+Timepoint: 2024/05/06 13:43:02
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:43:02
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:43:02
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:43:02
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:43:02
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:43:02
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:43:55
+[1mProcessing: 8/34
+[0m
+
+
+Timepoint: 2024/05/06 13:43:55
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:43:55
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:43:56
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:43:56
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:43:56
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:43:56
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:45:01
+[1mProcessing: 9/34
+[0m
+
+
+Timepoint: 2024/05/06 13:45:01
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:45:01
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:45:01
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:45:01
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:45:01
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:45:01
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:45:50
+[1mProcessing: 10/34
+[0m
+
+
+Timepoint: 2024/05/06 13:45:50
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:45:51
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:45:51
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:45:51
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:45:51
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:45:51
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:46:39
+[1mProcessing: 11/34
+[0m
+
+
+Timepoint: 2024/05/06 13:46:39
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:46:40
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:46:40
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:46:40
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:46:40
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:46:40
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:47:23
+[1mProcessing: 12/34
+[0m
+
+
+Timepoint: 2024/05/06 13:47:23
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:47:23
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:47:24
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:47:24
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:47:24
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:47:24
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:48:08
+[1mProcessing: 13/34
+[0m
+
+
+Timepoint: 2024/05/06 13:48:08
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:48:08
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:48:08
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:48:08
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:48:08
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:48:08
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:49:14
+[1mProcessing: 14/34
+[0m
+
+
+Timepoint: 2024/05/06 13:49:14
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:49:14
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:49:14
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:49:15
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:49:15
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:49:15
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:49:56
+[1mProcessing: 15/34
+[0m
+
+
+Timepoint: 2024/05/06 13:49:56
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:49:56
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:49:56
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:49:56
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:49:56
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:49:56
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:50:49
+[1mProcessing: 16/34
+[0m
+
+
+Timepoint: 2024/05/06 13:50:49
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:50:49
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:50:49
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:50:50
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:50:50
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:50:50
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:51:45
+[1mProcessing: 17/34
+[0m
+
+
+Timepoint: 2024/05/06 13:51:45
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:51:45
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:51:45
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:51:45
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:51:46
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:51:46
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:52:38
+[1mProcessing: 18/34
+[0m
+
+
+Timepoint: 2024/05/06 13:52:38
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:52:38
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:52:38
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:52:39
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:52:39
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:52:39
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:53:33
+[1mProcessing: 19/34
+[0m
+
+
+Timepoint: 2024/05/06 13:53:33
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:53:33
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:53:33
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:53:33
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:53:33
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:53:33
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:54:17
+[1mProcessing: 20/34
+[0m
+
+
+Timepoint: 2024/05/06 13:54:17
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:54:17
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:54:17
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:54:17
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:54:17
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:54:17
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:55:07
+[1mProcessing: 21/34
+[0m
+
+
+Timepoint: 2024/05/06 13:55:07
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:55:07
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:55:07
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:55:07
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:55:07
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:55:07
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:55:58
+[1mProcessing: 22/34
+[0m
+
+
+Timepoint: 2024/05/06 13:55:58
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:55:58
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:55:59
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:55:59
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:55:59
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:55:59
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:56:41
+[1mProcessing: 23/34
+[0m
+
+
+Timepoint: 2024/05/06 13:56:41
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:56:41
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:56:41
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:56:41
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:56:41
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:56:41
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:57:23
+[1mProcessing: 24/34
+[0m
+
+
+Timepoint: 2024/05/06 13:57:23
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:57:23
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:57:23
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:57:23
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:57:23
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:57:23
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:58:09
+[1mProcessing: 25/34
+[0m
+
+
+Timepoint: 2024/05/06 13:58:09
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:58:09
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:58:09
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:58:09
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:58:09
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:58:09
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 13:59:03
+[1mProcessing: 26/34
+[0m
+
+
+Timepoint: 2024/05/06 13:59:03
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 13:59:03
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 13:59:03
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 13:59:04
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 13:59:04
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 13:59:04
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:00:01
+[1mProcessing: 27/34
+[0m
+
+
+Timepoint: 2024/05/06 14:00:01
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:00:01
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:00:01
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:00:01
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:00:01
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:00:01
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:00:56
+[1mProcessing: 28/34
+[0m
+
+
+Timepoint: 2024/05/06 14:00:56
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:00:56
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:00:56
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:00:56
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:00:56
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:00:56
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:01:46
+[1mProcessing: 29/34
+[0m
+
+
+Timepoint: 2024/05/06 14:01:46
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:01:46
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:01:46
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:01:46
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:01:46
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:01:46
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:02:46
+[1mProcessing: 30/34
+[0m
+
+
+Timepoint: 2024/05/06 14:02:46
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:02:46
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:02:46
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:02:46
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:02:46
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:02:46
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:03:38
+[1mProcessing: 31/34
+[0m
+
+
+Timepoint: 2024/05/06 14:03:38
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:03:38
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:03:38
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:03:39
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:03:39
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:03:39
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:04:19
+[1mProcessing: 32/34
+[0m
+
+
+Timepoint: 2024/05/06 14:04:19
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:04:19
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:04:19
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:04:19
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:04:19
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:04:19
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:05:06
+[1mProcessing: 33/34
+[0m
+
+
+Timepoint: 2024/05/06 14:05:06
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:05:06
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:05:07
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:05:07
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:05:07
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:05:07
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:05:49
+[1mProcessing: 34/34
+[0m
+
+
+Timepoint: 2024/05/06 14:05:49
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:05:49
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:05:49
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:05:49
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:05:49
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:05:49
+[1mFitting data...
+[0m
+
+
+
+CLASSIFICATION
+C1000    17326
+C2000     6074
+C1200     4837
+C3000     1918
+C2100     1883
+Other     1003
+C7000      777
+C1700      287
+C4000      194
+Name: count, dtype: int64
+
+
+Timepoint: 2024/05/06 14:06:36
+[1mProcessing: 1/6
+[0m
+
+
+Timepoint: 2024/05/06 14:06:36
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:06:36
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:06:36
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:06:37
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:06:37
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:06:37
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:07:25
+[1mProcessing: 2/6
+[0m
+
+
+Timepoint: 2024/05/06 14:07:25
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:07:25
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:07:25
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:07:25
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:07:25
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:07:25
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:08:02
+[1mProcessing: 3/6
+[0m
+
+
+Timepoint: 2024/05/06 14:08:02
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:08:02
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:08:02
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:08:02
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:08:02
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:08:02
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:08:49
+[1mProcessing: 4/6
+[0m
+
+
+Timepoint: 2024/05/06 14:08:49
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:08:49
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:08:50
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:08:50
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:08:50
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:08:50
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:10:07
+[1mProcessing: 5/6
+[0m
+
+
+Timepoint: 2024/05/06 14:10:07
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:10:07
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:10:07
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:10:07
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:10:08
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:10:08
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:10:56
+[1mProcessing: 6/6
+[0m
+
+
+Timepoint: 2024/05/06 14:10:56
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:10:56
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:10:57
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:10:57
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:10:57
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:10:57
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:11:40
+[1mProcessing: 1/6
+[0m
+
+
+Timepoint: 2024/05/06 14:11:40
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:11:40
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:11:40
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:11:40
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:11:40
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:11:40
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:12:25
+[1mProcessing: 2/6
+[0m
+
+
+Timepoint: 2024/05/06 14:12:25
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:12:25
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:12:25
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:12:25
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:12:25
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:12:25
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:13:16
+[1mProcessing: 3/6
+[0m
+
+
+Timepoint: 2024/05/06 14:13:16
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:13:16
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:13:17
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:13:17
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:13:17
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:13:17
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:14:09
+[1mProcessing: 4/6
+[0m
+
+
+Timepoint: 2024/05/06 14:14:09
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:14:09
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:14:09
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:14:09
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:14:09
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:14:09
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:14:48
+[1mProcessing: 5/6
+[0m
+
+
+Timepoint: 2024/05/06 14:14:48
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:14:48
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:14:48
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:14:48
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:14:48
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:14:48
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:15:56
+[1mProcessing: 6/6
+[0m
+
+
+Timepoint: 2024/05/06 14:15:56
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:15:56
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:15:56
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:15:56
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:15:56
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:15:56
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:16:47
+[1mProcessing: 1/6
+[0m
+
+
+Timepoint: 2024/05/06 14:16:47
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:16:47
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:16:47
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:16:47
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:16:47
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:16:47
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:17:29
+[1mProcessing: 2/6
+[0m
+
+
+Timepoint: 2024/05/06 14:17:29
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:17:29
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:17:29
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:17:30
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:17:30
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:17:30
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:18:20
+[1mProcessing: 3/6
+[0m
+
+
+Timepoint: 2024/05/06 14:18:20
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:18:20
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:18:20
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:18:20
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:18:20
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:18:20
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:19:13
+[1mProcessing: 4/6
+[0m
+
+
+Timepoint: 2024/05/06 14:19:13
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:19:13
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:19:13
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:19:13
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:19:13
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:19:13
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:19:57
+[1mProcessing: 5/6
+[0m
+
+
+Timepoint: 2024/05/06 14:19:57
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:19:57
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:19:57
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:19:57
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:19:57
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:19:57
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:20:41
+[1mProcessing: 6/6
+[0m
+
+
+Timepoint: 2024/05/06 14:20:41
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:20:41
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:20:41
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:20:41
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:20:41
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:20:41
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:21:25
+[1mProcessing: 1/6
+[0m
+
+
+Timepoint: 2024/05/06 14:21:25
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:21:25
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:21:25
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:21:26
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:21:26
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:21:26
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:22:28
+[1mProcessing: 2/6
+[0m
+
+
+Timepoint: 2024/05/06 14:22:28
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:22:28
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:22:28
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:22:29
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:22:29
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:22:29
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:23:05
+[1mProcessing: 3/6
+[0m
+
+
+Timepoint: 2024/05/06 14:23:05
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:23:05
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:23:06
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:23:06
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:23:06
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:23:06
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:23:57
+[1mProcessing: 4/6
+[0m
+
+
+Timepoint: 2024/05/06 14:23:57
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:23:57
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:23:57
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:23:58
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:23:58
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:23:58
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:24:58
+[1mProcessing: 5/6
+[0m
+
+
+Timepoint: 2024/05/06 14:24:58
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:24:58
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:24:58
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:24:58
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:24:58
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:24:58
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:25:46
+[1mProcessing: 6/6
+[0m
+
+
+Timepoint: 2024/05/06 14:25:46
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:25:46
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:25:46
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:25:46
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:25:46
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:25:46
+[1mFitting data...
+[0m
+
+
+
+USE_CASE
+PRESERVATION     28095
+PRODUCTDEV        5671
+COMMUNITYSERV      384
+HEATHCARE          146
+Other                3
+Name: count, dtype: int64
+
+
+Timepoint: 2024/05/06 14:26:25
+[1mProcessing: 1/5
+[0m
+
+
+Timepoint: 2024/05/06 14:26:25
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:26:25
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:26:25
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:26:26
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:26:26
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:26:26
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:27:16
+[1mProcessing: 2/5
+[0m
+
+
+Timepoint: 2024/05/06 14:27:16
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:27:16
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:27:16
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:27:16
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:27:16
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:27:16
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:28:28
+[1mProcessing: 3/5
+[0m
+
+
+Timepoint: 2024/05/06 14:28:28
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:28:28
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:28:28
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:28:28
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:28:28
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:28:28
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:29:10
+[1mProcessing: 4/5
+[0m
+
+
+Timepoint: 2024/05/06 14:29:10
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:29:10
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:29:11
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:29:11
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:29:11
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:29:11
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:30:10
+[1mProcessing: 5/5
+[0m
+
+
+Timepoint: 2024/05/06 14:30:10
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:30:10
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:30:10
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:30:10
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:30:10
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:30:10
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:30:51
+[1mProcessing: 1/5
+[0m
+
+
+Timepoint: 2024/05/06 14:30:51
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:30:51
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:30:51
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:30:51
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:30:51
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:30:51
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:31:40
+[1mProcessing: 2/5
+[0m
+
+
+Timepoint: 2024/05/06 14:31:40
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:31:40
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:31:40
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:31:40
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:31:40
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:31:40
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:32:20
+[1mProcessing: 3/5
+[0m
+
+
+Timepoint: 2024/05/06 14:32:20
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:32:20
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:32:20
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:32:21
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:32:21
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:32:21
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:33:15
+[1mProcessing: 4/5
+[0m
+
+
+Timepoint: 2024/05/06 14:33:15
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:33:15
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:33:15
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:33:16
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:33:16
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:33:16
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:33:57
+[1mProcessing: 5/5
+[0m
+
+
+Timepoint: 2024/05/06 14:33:57
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:33:57
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:33:57
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:33:57
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:33:57
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:33:57
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:34:39
+[1mProcessing: 1/5
+[0m
+
+
+Timepoint: 2024/05/06 14:34:39
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:34:39
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:34:39
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:34:39
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:34:39
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:34:39
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:35:19
+[1mProcessing: 2/5
+[0m
+
+
+Timepoint: 2024/05/06 14:35:19
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:35:19
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:35:19
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:35:20
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:35:20
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:35:20
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:36:06
+[1mProcessing: 3/5
+[0m
+
+
+Timepoint: 2024/05/06 14:36:06
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:36:06
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:36:06
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:36:07
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:36:07
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:36:07
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:36:59
+[1mProcessing: 4/5
+[0m
+
+
+Timepoint: 2024/05/06 14:36:59
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:36:59
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:36:59
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:37:00
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:37:00
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:37:00
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:37:43
+[1mProcessing: 5/5
+[0m
+
+
+Timepoint: 2024/05/06 14:37:43
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:37:43
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:37:43
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:37:43
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:37:43
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:37:43
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:38:29
+[1mProcessing: 1/5
+[0m
+
+
+Timepoint: 2024/05/06 14:38:29
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:38:29
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:38:30
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:38:30
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:38:30
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:38:30
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:39:07
+[1mProcessing: 2/5
+[0m
+
+
+Timepoint: 2024/05/06 14:39:07
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:39:07
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:39:07
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:39:08
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:39:08
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:39:08
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:40:21
+[1mProcessing: 3/5
+[0m
+
+
+Timepoint: 2024/05/06 14:40:21
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:40:21
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:40:21
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:40:22
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:40:22
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:40:22
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:41:09
+[1mProcessing: 4/5
+[0m
+
+
+Timepoint: 2024/05/06 14:41:09
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:41:09
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:41:09
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:41:09
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:41:09
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:41:09
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:41:53
+[1mProcessing: 5/5
+[0m
+
+
+Timepoint: 2024/05/06 14:41:53
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:41:53
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:41:53
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:41:53
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:41:53
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:41:53
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:42:43
+[1mProcessing: 1/5
+[0m
+
+
+Timepoint: 2024/05/06 14:42:43
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:42:43
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:42:43
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:42:43
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:42:44
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:42:44
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:43:45
+[1mProcessing: 2/5
+[0m
+
+
+Timepoint: 2024/05/06 14:43:45
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:43:45
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:43:45
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:43:45
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:43:45
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:43:45
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:44:41
+[1mProcessing: 3/5
+[0m
+
+
+Timepoint: 2024/05/06 14:44:41
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:44:41
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:44:41
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:44:41
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:44:41
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:44:41
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:45:25
+[1mProcessing: 4/5
+[0m
+
+
+Timepoint: 2024/05/06 14:45:25
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:45:25
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:45:25
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:45:25
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:45:25
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:45:25
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:46:22
+[1mProcessing: 5/5
+[0m
+
+
+Timepoint: 2024/05/06 14:46:22
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:46:22
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:46:22
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:46:22
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:46:22
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:46:22
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:47:08
+[1mProcessing: 1/5
+[0m
+
+
+Timepoint: 2024/05/06 14:47:08
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:47:08
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:47:09
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:47:09
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:47:09
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:47:09
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:47:50
+[1mProcessing: 2/5
+[0m
+
+
+Timepoint: 2024/05/06 14:47:50
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:47:50
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:47:51
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:47:51
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:47:51
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:47:51
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:48:32
+[1mProcessing: 3/5
+[0m
+
+
+Timepoint: 2024/05/06 14:48:32
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:48:32
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:48:32
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:48:33
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:48:33
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:48:33
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:49:28
+[1mProcessing: 4/5
+[0m
+
+
+Timepoint: 2024/05/06 14:49:28
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:49:28
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:49:29
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:49:29
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:49:29
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:49:29
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:50:15
+[1mProcessing: 5/5
+[0m
+
+
+Timepoint: 2024/05/06 14:50:15
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:50:15
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:50:15
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:50:15
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:50:15
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:50:15
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:51:04
+[1mProcessing: 1/5
+[0m
+
+
+Timepoint: 2024/05/06 14:51:04
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:51:04
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:51:04
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:51:04
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:51:04
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:51:04
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:51:54
+[1mProcessing: 2/5
+[0m
+
+
+Timepoint: 2024/05/06 14:51:54
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:51:54
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:51:54
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:51:54
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:51:54
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:51:54
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:52:52
+[1mProcessing: 3/5
+[0m
+
+
+Timepoint: 2024/05/06 14:52:52
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:52:52
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:52:52
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:52:52
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:52:52
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:52:52
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:53:47
+[1mProcessing: 4/5
+[0m
+
+
+Timepoint: 2024/05/06 14:53:47
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:53:47
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:53:47
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:53:48
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:53:48
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:53:48
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:54:41
+[1mProcessing: 5/5
+[0m
+
+
+Timepoint: 2024/05/06 14:54:41
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:54:41
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:54:41
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:54:41
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:54:41
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:54:41
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:55:30
+[1mProcessing: 1/5
+[0m
+
+
+Timepoint: 2024/05/06 14:55:30
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:55:30
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:55:30
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:55:30
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:55:30
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:55:30
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:56:18
+[1mProcessing: 2/5
+[0m
+
+
+Timepoint: 2024/05/06 14:56:18
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:56:18
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:56:19
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:56:19
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:56:19
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:56:19
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:57:05
+[1mProcessing: 3/5
+[0m
+
+
+Timepoint: 2024/05/06 14:57:05
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:57:05
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:57:05
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:57:05
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:57:05
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:57:05
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:57:56
+[1mProcessing: 4/5
+[0m
+
+
+Timepoint: 2024/05/06 14:57:56
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:57:56
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:57:56
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:57:56
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:57:56
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:57:56
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:58:46
+[1mProcessing: 5/5
+[0m
+
+
+Timepoint: 2024/05/06 14:58:46
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:58:46
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:58:46
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:58:46
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:58:46
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:58:46
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 14:59:30
+[1mProcessing: 1/5
+[0m
+
+
+Timepoint: 2024/05/06 14:59:30
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 14:59:30
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 14:59:30
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 14:59:31
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 14:59:31
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 14:59:31
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:00:13
+[1mProcessing: 2/5
+[0m
+
+
+Timepoint: 2024/05/06 15:00:13
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:00:13
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:00:14
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:00:14
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:00:14
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:00:14
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:01:02
+[1mProcessing: 3/5
+[0m
+
+
+Timepoint: 2024/05/06 15:01:03
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:01:03
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:01:03
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:01:03
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:01:03
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:01:03
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:01:51
+[1mProcessing: 4/5
+[0m
+
+
+Timepoint: 2024/05/06 15:01:51
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:01:51
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:01:51
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:01:51
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:01:51
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:01:51
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:02:41
+[1mProcessing: 5/5
+[0m
+
+
+Timepoint: 2024/05/06 15:02:41
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:02:41
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:02:41
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:02:41
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:02:41
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:02:41
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:03:25
+[1mProcessing: 1/5
+[0m
+
+
+Timepoint: 2024/05/06 15:03:25
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:03:25
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:03:25
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:03:25
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:03:25
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:03:25
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:04:08
+[1mProcessing: 2/5
+[0m
+
+
+Timepoint: 2024/05/06 15:04:08
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:04:08
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:04:08
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:04:09
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:04:09
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:04:09
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:04:54
+[1mProcessing: 3/5
+[0m
+
+
+Timepoint: 2024/05/06 15:04:54
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:04:54
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:04:54
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:04:54
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:04:54
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:04:54
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:05:34
+[1mProcessing: 4/5
+[0m
+
+
+Timepoint: 2024/05/06 15:05:34
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:05:34
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:05:34
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:05:34
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:05:34
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:05:34
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:06:19
+[1mProcessing: 5/5
+[0m
+
+
+Timepoint: 2024/05/06 15:06:19
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:06:19
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:06:19
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:06:19
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:06:19
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:06:19
+[1mFitting data...
+[0m
+
+
+
+ORGANIZATION
+TRUST           23515
+ASSOCIATION     10255
+CO-OPERATIVE      486
+CORPORATION        43
+Name: count, dtype: int64
+
+
+Timepoint: 2024/05/06 15:07:29
+[1mProcessing: 1/10
+[0m
+
+
+Timepoint: 2024/05/06 15:07:29
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:07:29
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:07:29
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:07:30
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:07:30
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:07:30
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:08:27
+[1mProcessing: 2/10
+[0m
+
+
+Timepoint: 2024/05/06 15:08:27
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:08:27
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:08:27
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:08:27
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:08:27
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:08:27
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:09:23
+[1mProcessing: 3/10
+[0m
+
+
+Timepoint: 2024/05/06 15:09:23
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:09:23
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:09:23
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:09:23
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:09:23
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:09:23
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:10:05
+[1mProcessing: 4/10
+[0m
+
+
+Timepoint: 2024/05/06 15:10:05
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:10:05
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:10:06
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:10:06
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:10:06
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:10:06
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:11:01
+[1mProcessing: 5/10
+[0m
+
+
+Timepoint: 2024/05/06 15:11:01
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:11:01
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:11:01
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:11:01
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:11:01
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:11:01
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:11:59
+[1mProcessing: 6/10
+[0m
+
+
+Timepoint: 2024/05/06 15:11:59
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:11:59
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:11:59
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:11:59
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:11:59
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:11:59
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:12:42
+[1mProcessing: 7/10
+[0m
+
+
+Timepoint: 2024/05/06 15:12:42
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:12:42
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:12:42
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:12:43
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:12:43
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:12:43
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:13:50
+[1mProcessing: 8/10
+[0m
+
+
+Timepoint: 2024/05/06 15:13:50
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:13:50
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:13:50
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:13:50
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:13:50
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:13:50
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:14:51
+[1mProcessing: 9/10
+[0m
+
+
+Timepoint: 2024/05/06 15:14:51
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:14:51
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:14:51
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:14:51
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:14:51
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:14:51
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:15:39
+[1mProcessing: 10/10
+[0m
+
+
+Timepoint: 2024/05/06 15:15:39
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:15:39
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:15:39
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:15:40
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:15:40
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:15:40
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:16:33
+[1mProcessing: 1/10
+[0m
+
+
+Timepoint: 2024/05/06 15:16:33
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:16:33
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:16:33
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:16:33
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:16:33
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:16:33
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:17:23
+[1mProcessing: 2/10
+[0m
+
+
+Timepoint: 2024/05/06 15:17:23
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:17:23
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:17:24
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:17:24
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:17:24
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:17:24
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:18:35
+[1mProcessing: 3/10
+[0m
+
+
+Timepoint: 2024/05/06 15:18:35
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:18:35
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:18:35
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:18:36
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:18:36
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:18:36
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:19:19
+[1mProcessing: 4/10
+[0m
+
+
+Timepoint: 2024/05/06 15:19:19
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:19:19
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:19:19
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:19:20
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:19:20
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:19:20
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:20:10
+[1mProcessing: 5/10
+[0m
+
+
+Timepoint: 2024/05/06 15:20:10
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:20:10
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:20:10
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:20:10
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:20:10
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:20:10
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:21:18
+[1mProcessing: 6/10
+[0m
+
+
+Timepoint: 2024/05/06 15:21:18
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:21:18
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:21:18
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:21:18
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:21:18
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:21:18
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:22:14
+[1mProcessing: 7/10
+[0m
+
+
+Timepoint: 2024/05/06 15:22:14
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:22:14
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:22:14
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:22:14
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:22:14
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:22:14
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:23:14
+[1mProcessing: 8/10
+[0m
+
+
+Timepoint: 2024/05/06 15:23:14
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:23:14
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:23:14
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:23:14
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:23:14
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:23:14
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:23:58
+[1mProcessing: 9/10
+[0m
+
+
+Timepoint: 2024/05/06 15:23:58
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:23:58
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:23:58
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:23:58
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:23:58
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:23:58
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:24:57
+[1mProcessing: 10/10
+[0m
+
+
+Timepoint: 2024/05/06 15:24:57
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:24:57
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:24:57
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:24:58
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:24:58
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:24:58
+[1mFitting data...
+[0m
+
+
+
+INCOME_AMT
+0                24388
+25000-99999       3747
+100000-499999     3374
+Other             2790
+Name: count, dtype: int64
+
+
+Timepoint: 2024/05/06 15:25:36
+[1mProcessing: 1/10
+[0m
+
+
+Timepoint: 2024/05/06 15:25:36
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:25:36
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:25:36
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:25:36
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:25:36
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:25:36
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:26:34
+[1mProcessing: 2/10
+[0m
+
+
+Timepoint: 2024/05/06 15:26:35
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:26:35
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:26:35
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:26:35
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:26:35
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:26:35
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:27:22
+[1mProcessing: 3/10
+[0m
+
+
+Timepoint: 2024/05/06 15:27:22
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:27:22
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:27:22
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:27:22
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:27:22
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:27:22
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:28:11
+[1mProcessing: 4/10
+[0m
+
+
+Timepoint: 2024/05/06 15:28:11
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:28:11
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:28:11
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:28:11
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:28:11
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:28:11
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:28:57
+[1mProcessing: 5/10
+[0m
+
+
+Timepoint: 2024/05/06 15:28:57
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:28:57
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:28:57
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:28:57
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:28:57
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:28:57
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:29:47
+[1mProcessing: 6/10
+[0m
+
+
+Timepoint: 2024/05/06 15:29:47
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:29:47
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:29:47
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:29:47
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:29:47
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:29:47
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:30:43
+[1mProcessing: 7/10
+[0m
+
+
+Timepoint: 2024/05/06 15:30:43
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:30:43
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:30:43
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:30:43
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:30:43
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:30:43
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:31:31
+[1mProcessing: 8/10
+[0m
+
+
+Timepoint: 2024/05/06 15:31:31
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:31:31
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:31:31
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:31:31
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:31:31
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:31:31
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:32:28
+[1mProcessing: 9/10
+[0m
+
+
+Timepoint: 2024/05/06 15:32:29
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:32:29
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:32:29
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:32:29
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:32:29
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:32:29
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:33:13
+[1mProcessing: 10/10
+[0m
+
+
+Timepoint: 2024/05/06 15:33:13
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:33:13
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:33:13
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:33:13
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:33:13
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:33:13
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:33:58
+[1mProcessing: 1/10
+[0m
+
+
+Timepoint: 2024/05/06 15:33:58
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:33:58
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:33:58
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:33:58
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:33:58
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:33:58
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:35:14
+[1mProcessing: 2/10
+[0m
+
+
+Timepoint: 2024/05/06 15:35:14
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:35:14
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:35:14
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:35:14
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:35:14
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:35:14
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:35:59
+[1mProcessing: 3/10
+[0m
+
+
+Timepoint: 2024/05/06 15:35:59
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:35:59
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:35:59
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:35:59
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:35:59
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:35:59
+[1mFitting data...
+[0m
+
+
+Timepoint: 2024/05/06 15:37:21
+[1mProcessing: 4/10
+[0m
+
+
+Timepoint: 2024/05/06 15:37:21
+[1mReplacing values...
+[0m
+
+
+Timepoint: 2024/05/06 15:37:21
+[1mSetting dummy values...
+[0m
+
+
+Timepoint: 2024/05/06 15:37:21
+[1mSplitting data into training and testing...
+[0m
+
+
+Timepoint: 2024/05/06 15:37:21
+[1mCreating model...
+[0m
+
+
+Timepoint: 2024/05/06 15:37:21
+[1mCompiling...
+[0m
+
+
+Timepoint: 2024/05/06 15:37:21
+[1mFitting data...
+[0m
+
